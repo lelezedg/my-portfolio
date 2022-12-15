@@ -6,7 +6,9 @@ export const Menu = () => {
   return (
     <div className="flex flex-col h-screen justify-center self-center items-end text-end">
       <div className="mb-7 -mt-24">
-        <h1 className="font-bold text-2xl text-primary-dark">Hi, I'm Elene</h1>
+        <h1 className="font-bold text-2xl text-primary-dark">
+          Hi, I&apos;m Elene
+        </h1>
         <h1 className="font-regular text-sm text-body">UX/UI Designer</h1>
       </div>
 
