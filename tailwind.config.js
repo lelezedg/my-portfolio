@@ -11,6 +11,10 @@ module.exports = {
         gray: "#9FA8B1",
         active: "#2C7CED",
         "primary-dark": "#3A3F46",
+        "blue-100": "#F2FBFF",
+        "blue-200": "#D9F2FF",
+        "purple-100": "#F6F2FF",
+        "purple-200": "#E5D9FF",
       },
     },
     container: {

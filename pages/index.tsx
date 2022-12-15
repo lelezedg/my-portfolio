@@ -13,7 +13,7 @@ export default function Home() {
           quality={30}
         /> */}
 
-        <div className="ml-24 -mx-6 flex flex-grow ">
+        <div className="md:ml-24 md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
             title="Learn First Aid"
             subtitle="App allows people to refresh their First Aid knowledge with illustrated articles and quizzes."
