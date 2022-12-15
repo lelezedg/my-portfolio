@@ -33,11 +33,11 @@ jobs:
 
       - name: Build
         run: |
-          npm run build && npm run export && touch out/.nojekyll && public -d out -t true
+          npm run build && npm run export && touch out/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: public # The branch the action should deploy to.
+          BRANCH: published # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
