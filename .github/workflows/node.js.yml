@@ -33,7 +33,7 @@ jobs:
 
       - name: Build
         run: |
-          npm run build && npm run export && touch ./out/.nojekyll && gh-pages -d out -t true
+          npm run build && npm run export && touch ./out/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
