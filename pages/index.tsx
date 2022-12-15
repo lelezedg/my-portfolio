@@ -17,11 +17,13 @@ export default function Home() {
           <Card
             title="Learn First Aid"
             subtitle="App allows people to refresh their First Aid knowledge with illustrated articles and quizzes."
+            backgroundStyle="bg-gradient-to-r from-blue-100 to-blue-200"
           />
 
           <Card
             title="Gluten Free Finder"
             subtitle="App guides people to discover Gluten Free restaurants worldwide."
+            backgroundStyle="bg-gradient-to-r from-green-100 to-green-200"
           />
         </div>
 
@@ -29,11 +31,13 @@ export default function Home() {
           <Card
             title="Reduce Food Waste"
             subtitle="App allows people to share Food & Grocery products with NGO communities."
+            backgroundStyle="bg-gradient-to-r from-orange-100 to-orange-200"
           />
 
           <Card
             title="Fashion Designer's Website"
             subtitle="Responsive portfolio website, where people can find designer’s collection and contact details."
+            backgroundStyle="bg-gradient-to-r from-purple-100 to-purple-200"
           />
         </div>
       </div>
