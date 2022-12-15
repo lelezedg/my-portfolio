@@ -22,10 +22,12 @@ export const Layout = ({ children, title }: TLayout) => {
       </div>
 
       <div className="flex-grow flex flex-col">
-        <div className="flex-grow w-full mt-16">{children}</div>
+        <div className="flex-grow w-full mt-16 overflow-scroll scrollbar">
+          {children}
 
-        <div className="flex-initial w-full">
-          <Footer />
+          <div className="flex-initial w-full md:mt-64 mt-32">
+            <Footer />
+          </div>
         </div>
       </div>
     </div>

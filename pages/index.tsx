@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Layout title="eleneux.com">
-      <div className="flex ">
+      <div className="flex flex-col">
         {/* <Image
           src="/assets/image1.png"
           width={390}
@@ -22,6 +22,18 @@ export default function Home() {
           <Card
             title="Gluten Free Finder"
             subtitle="App guides people to discover Gluten Free restaurants worldwide."
+          />
+        </div>
+
+        <div className="md:ml-24 md:-mx-6 flex flex-grow flex-col md:flex-row">
+          <Card
+            title="Reduce Food Waste"
+            subtitle="App allows people to share Food & Grocery products with NGO communities."
+          />
+
+          <Card
+            title="Fashion Designer's Website"
+            subtitle="Responsive portfolio website, where people can find designer’s collection and contact details."
           />
         </div>
       </div>
