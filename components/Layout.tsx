@@ -22,7 +22,7 @@ export const Layout = ({ children, title }: TLayout) => {
       </div>
 
       <div className="flex-grow flex flex-col">
-        <div className="flex-grow w-full">{children}</div>
+        <div className="flex-grow w-full mt-16">{children}</div>
 
         <div className="flex-initial w-full">
           <Footer />

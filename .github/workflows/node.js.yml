@@ -33,7 +33,7 @@ jobs:
 
       - name: Build
         run: |
-          npm run build && npm run export && touch ./out/.nojekyll
+          npm run build && npm run export && touch out/.nojekyll && touch out/CNAME && echo \"https://digmel.github.io/ux-portfolio/\" >> out/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
