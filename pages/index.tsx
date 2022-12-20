@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <Layout title="eleneux.com">
       <div className="flex flex-col">
-        <div className="md:ml-24 md:-mx-6 flex flex-grow flex-col md:flex-row">
+        <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
             title="Learn First Aid"
             subtitle="App allows people to refresh their First Aid knowledge with illustrated articles and quizzes."
@@ -20,7 +20,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="md:ml-24 md:-mx-6 flex flex-grow flex-col md:flex-row">
+        <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
             title="Reduce Food Waste"
             subtitle="App allows people to share Food & Grocery products with NGO communities."
