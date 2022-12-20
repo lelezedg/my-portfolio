@@ -6,11 +6,17 @@ type TMenuItem = {
   title: string;
   variant?: TMenuItemVariant;
   isActive?: boolean;
+  link?: string;
 };
 
-export const MenuItem = ({ title, variant, isActive = false }: TMenuItem) => {
+export const MenuItem = ({
+  title,
+  variant,
+  isActive = false,
+  link,
+}: TMenuItem) => {
   return (
-    <div className="flex flex-row text-end justify-end my-2">
+    <a className="flex flex-row text-end justify-end my-2" href={link}>
       {variant && (
         <h1
           className={`text-base mr-1 ${
@@ -28,6 +34,6 @@ export const MenuItem = ({ title, variant, isActive = false }: TMenuItem) => {
       >
         {title}
       </h1>
-    </div>
+    </a>
   );
 };

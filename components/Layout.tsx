@@ -17,7 +17,7 @@ export const Layout = ({ children, title }: TLayout) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className="flex-initial md:w-3/12 w-0 pr-24">
+      <div className="flex-initial md:w-3/12 w-0 md:pr-24">
         <Menu />
       </div>
 

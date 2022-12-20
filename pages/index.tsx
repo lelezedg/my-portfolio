@@ -3,7 +3,7 @@ import { Card, Layout } from "../components";
 export default function Home() {
   return (
     <Layout title="eleneux.com">
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-16">
         <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
             title="Learn First Aid"
