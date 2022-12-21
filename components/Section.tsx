@@ -1,33 +1,35 @@
 import React from "react";
 import { BulletIcon, SectionTitleIcon } from "../icons";
+import { Text } from "./Text";
 
 type TSection = {
   title: string;
   body?: string;
   list?: string[];
-  style?: string;
+  className?: string;
 };
 
-export const Section = ({ title, body, list, style }: TSection) => {
+export const Section = ({ title, body, list, className }: TSection) => {
   const titleIconWidth = title.length * 7 + 36;
 
   return (
-    <div className={`flex flex-col basis-1/3 ${style}`}>
+    <div className={`flex flex-col ${className}`}>
       {title && (
         <div className="mb-2 md:mb-4 flex flex-col items-start ">
-          <h1 className="font-semibold md:font-bold text-sm md:text-base">
+          <Text variant="subtitle">
             {title}
-
             <div className="text-blue-200 pt-1">
               <SectionTitleIcon width={titleIconWidth} />
             </div>
-          </h1>
+          </Text>
         </div>
       )}
 
       {body && (
-        <div className="md:mb-4 md:-ml-8">
-          <h1 className="font-regular text-sm md:text-base md:mx-8">{body}</h1>
+        <div className="md:mb-4 md:-ml-12">
+          <Text variant="body" className="md:mx-12">
+            {body}
+          </Text>
         </div>
       )}
 
@@ -39,7 +41,12 @@ export const Section = ({ title, body, list, style }: TSection) => {
               <div className="mr-2 mt-2">
                 <BulletIcon />
               </div>
-              <h1 className="font-regular text-sm md:text-base">{item}</h1>
+
+              <div className="md:-ml-12">
+                <Text variant="body" className="md:mx-12">
+                  {item}
+                </Text>
+              </div>
             </div>
           );
         })}

@@ -2,6 +2,7 @@ import React from "react";
 import { BehanceIcon, DribbleIcon, LinkedinIcon } from "../icons";
 import { MenuItem } from "./MenuItem";
 import { useRouter } from "next/router";
+import { Text } from "./Text";
 
 export const Menu = () => {
   const { pathname } = useRouter();
@@ -9,10 +10,8 @@ export const Menu = () => {
   return (
     <div className="flex flex-col h-screen justify-center self-center items-end text-end">
       <div className="mb-7">
-        <h1 className="font-bold text-2xl text-primary-dark">
-          Hi, I&apos;m Elene
-        </h1>
-        <h1 className="font-regular text-sm text-body">UX/UI Designer</h1>
+        <Text variant="headline">Hi, I&apos;m Elene</Text>
+        <Text variant="body">UX/UI Designer</Text>
       </div>
 
       <div className="flex flex-col">

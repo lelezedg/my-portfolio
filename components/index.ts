@@ -4,4 +4,5 @@ export * from "./Menu";
 export * from "./MenuItem";
 export * from "./Card";
 export * from "./Section";
-export * from "./PageHero";
+export * from "./ProjectHero";
+export * from "./Text";

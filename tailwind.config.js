@@ -8,7 +8,6 @@ module.exports = {
     extend: {
       colors: {
         body: "#606A75",
-        gray: "#9FA8B1",
         active: "#2C7CED",
         "primary-dark": "#3A3F46",
         "blue-100": "#F2FBFF",
@@ -21,6 +20,10 @@ module.exports = {
         "green-200": "#DFFFD9",
         "pink-100": "#FFF2F2",
         "pink-200": "#FFD9D9",
+        "gray-100": "#E3E5E8",
+        "gray-200": "#9FA8B1",
+        "gray-300": "#606A75",
+        "gray-400": "#3A3F46",
       },
     },
     container: {

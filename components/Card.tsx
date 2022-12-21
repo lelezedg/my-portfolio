@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Text } from "./Text";
 
 type TCard = {
   title: string;
@@ -32,8 +33,11 @@ export const Card = ({
           />
         )}
       </div>
-      <h1 className="text-sm font-bold text-primary-dark mb-2">{title}</h1>
-      <p className="text-sm font-regular text-body">{subtitle}</p>
+      <Text variant="subtitle" className="mb-2">
+        {title}
+      </Text>
+
+      <Text variant="body">{subtitle}</Text>
     </Link>
   );
 };
