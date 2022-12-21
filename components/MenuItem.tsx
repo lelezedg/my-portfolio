@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 type TMenuItemVariant = "web" | "mobile";
 
@@ -13,10 +14,10 @@ export const MenuItem = ({
   title,
   variant,
   isActive = false,
-  link,
+  link = "/",
 }: TMenuItem) => {
   return (
-    <a className="flex flex-row text-end justify-end my-2" href={link}>
+    <Link className="flex flex-row text-end justify-end my-2" href={link}>
       {variant && (
         <h1
           className={`text-base mr-1 ${
@@ -34,6 +35,6 @@ export const MenuItem = ({
       >
         {title}
       </h1>
-    </a>
+    </Link>
   );
 };

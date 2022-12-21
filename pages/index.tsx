@@ -2,7 +2,7 @@ import { Card, Layout } from "../components";
 
 export default function Home() {
   return (
-    <Layout title="eleneux.com">
+    <Layout title="Home | eleneux.com">
       <div className="flex flex-col mt-16">
         <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
@@ -10,6 +10,7 @@ export default function Home() {
             subtitle="App allows people to refresh their First Aid knowledge with illustrated articles and quizzes."
             image="first-aid-hero"
             backgroundStyle="bg-gradient-to-r from-blue-100 to-blue-200"
+            link="/learn-first-aid-app"
           />
 
           <Card

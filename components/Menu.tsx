@@ -20,8 +20,8 @@ export const Menu = () => {
         <MenuItem
           title="Learn First Aid"
           variant="mobile"
-          link="/FirstAidApp"
-          isActive={pathname === "/FirstAidApp"}
+          link="/learn-first-aid-app"
+          isActive={pathname === "/learn-first-aid-app"}
         />
         <MenuItem title="Gluten-Free Finder" variant="mobile" />
         <MenuItem title="Reduce Food Waste" variant="mobile" />
