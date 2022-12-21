@@ -18,6 +18,7 @@ export default function Home() {
             subtitle="App guides people to discover Gluten Free restaurants worldwide."
             image="gluten-free-hero"
             backgroundStyle="bg-gradient-to-r from-green-100 to-green-200"
+            link="/gluten-free-finder-app"
           />
         </div>
 

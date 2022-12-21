@@ -2,12 +2,12 @@ import { Layout, ProjectHero, Section, Text } from "../components";
 
 export default function Page() {
   return (
-    <Layout title="Project | Learn First Aid App">
+    <Layout title="Project | Gluten Free Finder App">
       <div className="md:mt-16">
         <ProjectHero
-          title="Learn First Aid"
-          subtile="App allows people to refresh their First Aid knowledge with simple illustrated fun Exams"
-          coverImage="first-aid-hero"
+          title="Gluten Free Finder"
+          subtile="App guides people to discover Gluten-Free restaurants worldwide."
+          coverImage="gluten-free-hero"
           buttonLabel="View Prototype"
         />
 

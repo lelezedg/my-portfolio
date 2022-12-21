@@ -1,5 +1,6 @@
 import React from "react";
-import { BulletIcon, SectionTitleIcon } from "../icons";
+import { BulletIcon } from "../icons";
+import { SectionHeader } from "./SectionHeader";
 import { Text } from "./Text";
 
 type TSection = {
@@ -10,20 +11,9 @@ type TSection = {
 };
 
 export const Section = ({ title, body, list, className }: TSection) => {
-  const titleIconWidth = title.length * 7 + 36;
-
   return (
     <div className={`flex flex-col ${className}`}>
-      {title && (
-        <div className="mb-2 md:mb-4 flex flex-col items-start ">
-          <Text variant="subtitle">
-            {title}
-            <div className="text-blue-200 pt-1">
-              <SectionTitleIcon width={titleIconWidth} />
-            </div>
-          </Text>
-        </div>
-      )}
+      {title && <SectionHeader title={title} />}
 
       {body && (
         <div className="md:mb-4 md:-ml-12">

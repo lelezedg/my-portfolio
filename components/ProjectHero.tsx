@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Text } from "./Text";
 import { useRouter } from "next/router";
+import { Button } from "./Button";
 
 type TProjectHero = {
   title: string;
@@ -22,21 +23,18 @@ export const ProjectHero = ({
 
   return (
     <div className="flex flex-grow flex-row mb-32">
-      <div className="flex flex-col self-center">
+      <div className="flex flex-col justify-end">
         <Text variant="headline">{title}</Text>
         <Text variant="body" className="mt-2 mb-8">
           {subtile}
         </Text>
 
         <div>
-          <button
+          <Button
             onClick={() => router.push(`/${navigationURL}`)}
-            className="mb-24 py-3 px-6 bg-blue-200 rounded-lg"
-          >
-            <Text variant="body" className="text-gray-400">
-              {buttonLabel}
-            </Text>
-          </button>
+            className="mb-24"
+            label={buttonLabel}
+          />
         </div>
       </div>
 
