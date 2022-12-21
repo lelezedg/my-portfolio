@@ -2,7 +2,7 @@ import { Layout, ProjectHero, Section, Text } from "../components";
 
 export default function Page() {
   return (
-    <Layout title="Project | Learn First Aid App">
+    <Layout title="Project | Learn First Aid">
       <div className="md:mt-16">
         <ProjectHero
           title="Learn First Aid"

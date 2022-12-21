@@ -2,7 +2,7 @@ import { Layout, ProjectHero, Section, Text } from "../components";
 
 export default function Page() {
   return (
-    <Layout title="Project | Gluten Free Finder App">
+    <Layout title="Project | Gluten Free Finder">
       <div className="md:mt-16">
         <ProjectHero
           title="Gluten Free Finder"
