@@ -22,10 +22,10 @@ export const ProjectHero = ({
   const router = useRouter();
 
   return (
-    <div className="flex flex-grow flex-row mb-32">
-      <div className="flex flex-col justify-end">
+    <div className="flex flex-grow md:flex-row flex-col-reverse mb-32">
+      <div className="flex flex-col md:justify-start md:items-start items-center">
         <Text variant="headline">{title}</Text>
-        <Text variant="body" className="mt-2 mb-8">
+        <Text variant="body" className="mt-2 mb-8 text-center md:text-start">
           {subtile}
         </Text>
 
@@ -38,7 +38,7 @@ export const ProjectHero = ({
         </div>
       </div>
 
-      <div className="">
+      <div className="md:justify-end items-center pb-8 ">
         <Image
           src={`/assets/${coverImage}.png`}
           width={900}
