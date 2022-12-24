@@ -21,7 +21,7 @@ export const Layout = ({ children, title }: TLayout) => {
         <Menu />
       </div>
 
-      <div className="flex-grow flex flex-col md:w-9/12">
+      <div className="flex-grow flex flex-col md:w-9/12 md:mt-0 mt-12">
         <div className="flex-grow overflow-scroll scrollbar px-6 md:px-0">
           {children}
 

@@ -13,17 +13,17 @@ export default function Page() {
 
         <Text variant="title">Project Overview</Text>
 
-        <div className="md:mt-8 md:mb-24 flex flex-row">
+        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
           <Section
             title="Background"
             body="The app is designed for people who are interested in first-aid. The First Aid app will teach you how to handle yourself and injured people and how to behave during floods, earthquakes, and other natural disasters. The app aims to provide useful information and make the learning process easier and pleasurable."
-            className="basis-1/3"
+            className="basis-1/3 mt-8"
           />
 
           <Section
             title="The Goal"
             body="Develop a solution that helps people learn how to handle injuries or natural disasters."
-            className="basis-1/3"
+            className="basis-1/3 mt-8"
           />
 
           <Section
@@ -36,30 +36,32 @@ export default function Page() {
               "Iterating on des",
               "Information architecture.",
             ]}
-            className="basis-1/3"
+            className="basis-1/3 mt-8"
           />
         </div>
 
-        <Text variant="title">Understanding the User</Text>
+        <Text variant="title" className="mt-16">
+          Understanding the User
+        </Text>
 
-        <div className="md:mt-8 md:mb-24 flex flex-row">
+        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
           <Section
             title="Research"
             body="I've conducted user interviews and got lots of insights. Most interview participants reported that they don't have enough information about first aid, and never had the opportunity to learn. The feedback received through research made it clear, that users are willing to get basic information on how to behave during an emergency if they had an easy-to-use tool to help them."
-            className="basis-1/3"
+            className="basis-1/3 mt-8"
           />
 
           <Section
             title="Problem Statement #1"
             body="Based on the research insights I’ve created 2 personas and problem statements: 
             Stella is a part-time graphic designer and mom, who needs to find a platform that she will use in teaching her kid first aid."
-            className="basis-1/3"
+            className="basis-1/3 mt-8"
           />
 
           <Section
             title="Problem Statement #2"
             body="Based on the research insights I’ve created 2 personas and problem statements: Jennifer is a full-time student who needs an app that teaches her how to handle emergencies to get used to living alone."
-            className="basis-1/3"
+            className="basis-1/3 mt-8"
           />
         </div>
       </div>
