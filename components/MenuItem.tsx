@@ -1,4 +1,4 @@
-import React, { useState, useEffect, ReactNode } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Text } from "./Text";
@@ -23,6 +23,9 @@ export const MenuItem = ({
 
   useEffect(() => {
     switch (pathname) {
+      case "/":
+        setColor("text-active");
+        break;
       case "/learn-first-aid-app":
         setColor("text-blue-400");
         break;
