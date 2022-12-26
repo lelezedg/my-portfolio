@@ -1,14 +1,20 @@
 import { useRouter } from "next/router";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, ReactNode } from "react";
 import { Text } from "./Text";
 
 type TButton = {
-  label: string;
+  label?: string;
   className?: string;
   onClick?: Function;
+  children?: ReactNode;
 };
 
-export const Button = ({ label, className, onClick = () => {} }: TButton) => {
+export const Button = ({
+  label,
+  className,
+  onClick = () => {},
+  children,
+}: TButton) => {
   const { pathname } = useRouter();
   const [color, setColor] = useState("");
 
@@ -28,9 +34,12 @@ export const Button = ({ label, className, onClick = () => {} }: TButton) => {
       onClick={() => onClick()}
       className={`"mb-24 py-3 px-6 rounded-lg ${color} ${className}`}
     >
-      <Text variant="body" className="text-gray-400">
-        {label}
-      </Text>
+      {label && (
+        <Text variant="body" className="text-gray-400">
+          {label}
+        </Text>
+      )}
+      {children}
     </button>
   );
 };

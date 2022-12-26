@@ -8,7 +8,7 @@ export const Menu = () => {
   const { pathname } = useRouter();
 
   return (
-    <div className="flex flex-col h-screen justify-center self-center items-end text-end">
+    <div className="flex flex-col h-screen md:justify-center md:self-center self-start items-end text-end">
       <div className="mb-7">
         <Text variant="headline">Hi, I&apos;m Elene</Text>
         <Text variant="body">UX/UI Designer</Text>
