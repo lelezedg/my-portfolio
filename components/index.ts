@@ -8,3 +8,4 @@ export * from "./Section";
 export * from "./SectionHeader";
 export * from "./Text";
 export * from "./Button";
+export * from "./AnimatedView";

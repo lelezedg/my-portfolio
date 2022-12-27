@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import { MenuCloseIcon, MenuIcon } from "../icons";
+import { AnimatedView } from "./AnimatedView";
 import { Button } from "./Button";
 import { Footer } from "./Footer";
 import { Menu } from "./Menu";
@@ -27,27 +28,29 @@ export const Layout = ({ children, title }: TLayout) => {
 
       <div className="flex-grow flex flex-col md:w-9/12 md:mt-0 mt-4">
         <div className="flex-grow overflow-scroll scrollbar px-6 md:px-0">
-          <div className="md:hidden visible fixed right-6">
-            <div className="flex justify-end">
+          <AnimatedView className="md:hidden visible fixed right-6">
+            <AnimatedView className="flex justify-end">
               <Button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="flex self-end px-0 bg-transparent"
               >
                 {isMenuOpen ? <MenuCloseIcon /> : <MenuIcon />}
               </Button>
-            </div>
+            </AnimatedView>
 
-            <div className="mt-8 mr-2">{isMenuOpen && <Menu />}</div>
-          </div>
+            <AnimatedView className="mt-8 mr-2">
+              {isMenuOpen && <Menu />}
+            </AnimatedView>
+          </AnimatedView>
 
           {!isMenuOpen && (
-            <div className="mt-16">
+            <AnimatedView className="mt-16">
               {children}
 
               <div className="flex-initial w-full md:mt-64 mt-32">
                 <Footer />
               </div>
-            </div>
+            </AnimatedView>
           )}
         </div>
       </div>
