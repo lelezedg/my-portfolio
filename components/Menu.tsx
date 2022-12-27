@@ -3,16 +3,17 @@ import { BehanceIcon, DribbleIcon, LinkedinIcon } from "../icons";
 import { MenuItem } from "./MenuItem";
 import { useRouter } from "next/router";
 import { Text } from "./Text";
+import Link from "next/link";
 
 export const Menu = () => {
   const { pathname } = useRouter();
 
   return (
     <div className="flex flex-col h-screen md:justify-center md:self-center self-start items-end text-end">
-      <div className="mb-7">
+      <Link className="mb-7" href="/">
         <Text variant="headline">Hi, I&apos;m Elene</Text>
         <Text variant="body">UX/UI Designer</Text>
-      </div>
+      </Link>
 
       <div className="flex flex-col">
         <MenuItem title="Home" link="/" isActive={pathname === "/"} />
