@@ -138,7 +138,7 @@ export default function Page() {
             <div className="mt-4">
               <Text variant="subtitle">Jennifer, 19</Text>
               <Text variant="body">
-                Lives alone in Tbilisi, pursuing a bachelor's degree in business
+                Lives alone in Tbilisi, pursuing a bachelors degree in business
                 administration.
               </Text>
             </div>
