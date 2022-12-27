@@ -1,4 +1,11 @@
-import { Layout, ProjectHero, Section, Text } from "../components";
+import {
+  Layout,
+  ProjectHero,
+  Section,
+  SectionHeader,
+  Text,
+} from "../components";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -63,6 +70,56 @@ export default function Page() {
             body="Based on the research insights I’ve created 2 personas and problem statements: Jennifer is a full-time student who needs an app that teaches her how to handle emergencies to get used to living alone."
             className="basis-1/3 mt-8"
           />
+        </div>
+
+        <SectionHeader title="Persona #1" />
+
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
+          <div className="basis-1/3">
+            <Image
+              src={`/assets/persona-1.png`}
+              width={300}
+              height={278}
+              alt="1"
+              quality={100}
+            />
+
+            <div className="mt-4">
+              <Text variant="subtitle">Stella, 32</Text>
+              <Text variant="body">
+                Lives in Tbilisi with 8 y/o daughter, has BA degree in
+                marketing.
+              </Text>
+            </div>
+          </div>
+
+          <Section
+            title="About"
+            body="Stella has many responsibilities on a daily basis. She takes care of a daughter and works as a graphic designer part-time, she works mostly from home but goes into the office occasionally. Stella loves to travel, draw, read books, and loves her husband and 8-years-old kid. 
+            Stella constantly cares about her child’s safety, but often has to deal with childhood injuries. Stella wants to teach her daughter how to behave if she falls down in the yard or cuts her hand. She needs her daughter to be prepared for emergencies."
+            className="basis-1/3 md:mt-0 mt-8"
+          />
+
+          <div className="basis-1/3 md:mt-0 mt-8 flex flex-col">
+            <Section
+              title="Goals"
+              list={[
+                "To teach her 8 years old girl the basics of the first aid.",
+                "To find a way to learn first aid.",
+                "Be prepared for emergencies",
+              ]}
+              className="basis-1/3 "
+            />
+
+            <Section
+              title="Frustrations"
+              list={[
+                "There are no platforms that can be used when teaching first aid to a daughter.",
+                "Lots of people who don't know how to behave in an emergency, which makes Stella feel unsafe.",
+              ]}
+              className="basis-1/3 mt-4"
+            />
+          </div>
         </div>
       </div>
     </Layout>
