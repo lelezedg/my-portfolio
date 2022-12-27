@@ -21,6 +21,9 @@ export const SectionHeader = ({ title, className }: TSectionHeader) => {
       case "/gluten-free-finder-app":
         setIconColor("text-green-200");
         break;
+      case "/reduce-food-waste-app":
+        setIconColor("text-orange-200");
+        break;
 
       default:
         break;

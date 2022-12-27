@@ -32,6 +32,9 @@ export const MenuItem = ({
       case "/gluten-free-finder-app":
         setColor("text-green-400");
         break;
+      case "/reduce-food-waste-app":
+        setColor("text-orange-400");
+        break;
     }
   }, []);
 

@@ -26,6 +26,9 @@ export const Button = ({
       case "/gluten-free-finder-app":
         setColor("bg-green-200");
         break;
+      case "/reduce-food-waste-app":
+        setColor("bg-orange-200");
+        break;
     }
   }, []);
 

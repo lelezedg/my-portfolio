@@ -17,20 +17,30 @@ export const Menu = () => {
 
       <div className="flex flex-col">
         <MenuItem title="Home" link="/" isActive={pathname === "/"} />
+
         <MenuItem
           title="Learn First Aid"
           variant="mobile"
           link="/learn-first-aid-app"
           isActive={pathname === "/learn-first-aid-app"}
         />
+
         <MenuItem
           title="Gluten-Free Finder"
           variant="mobile"
           link="/gluten-free-finder-app"
           isActive={pathname === "/gluten-free-finder-app"}
         />
-        <MenuItem title="Reduce Food Waste" variant="mobile" />
+
+        <MenuItem
+          title="Reduce Food Waste"
+          variant="mobile"
+          link="/reduce-food-waste-app"
+          isActive={pathname === "/reduce-food-waste-app"}
+        />
+
         <MenuItem title="Fashion Designer" variant="web" />
+
         <MenuItem title="About" />
       </div>
 

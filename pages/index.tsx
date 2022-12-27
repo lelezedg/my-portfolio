@@ -28,6 +28,7 @@ export default function Home() {
             subtitle="App allows people to share Food & Grocery products with NGO communities."
             image="food-waste-hero"
             backgroundStyle="bg-gradient-to-r from-orange-100 to-orange-200"
+            link="/reduce-food-waste-app"
           />
 
           <Card
