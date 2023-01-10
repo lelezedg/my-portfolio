@@ -29,12 +29,6 @@ export default function Page() {
           />
 
           <Section
-            title="The Goal"
-            body="Develop a solution that helps people learn how to handle injuries or natural disasters."
-            className="basis-1/3 mt-8"
-          />
-
-          <Section
             title="My Role & Responsibilities"
             list={[
               "Product Designer & UX Researcher",
@@ -44,6 +38,12 @@ export default function Page() {
               "Iterating on des",
               "Information architecture.",
             ]}
+            className="basis-1/3 mt-8"
+          />
+
+          <Section
+            title="The Goal"
+            body="Develop a solution that helps people learn how to handle injuries or natural disasters."
             className="basis-1/3 mt-8"
           />
         </div>
@@ -78,7 +78,7 @@ export default function Page() {
         <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
           <div className="basis-1/3">
             <Image
-              src={`/assets/persona-1.png`}
+              src={`/assets/first-aid-persona1.png`}
               width={300}
               height={278}
               alt="1"
@@ -101,7 +101,7 @@ export default function Page() {
             className="basis-1/3 md:mt-0 mt-8"
           />
 
-          <div className="basis-1/3 md:mt-0 mt-8 flex flex-col">
+          <div className="basis-1/3 md:-mt-2 mt-8 flex flex-col">
             <Section
               title="Goals"
               list={[
@@ -128,7 +128,7 @@ export default function Page() {
         <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
           <div className="basis-1/3">
             <Image
-              src={`/assets/persona-2.png`}
+              src={`/assets/first-aid-persona2.png`}
               width={300}
               height={278}
               alt="1"
@@ -151,7 +151,7 @@ export default function Page() {
             className="basis-1/3 md:mt-0 mt-8"
           />
 
-          <div className="basis-1/3 md:mt-0 mt-8 flex flex-col">
+          <div className="basis-1/3 md:-mt-2 mt-8 flex flex-col">
             <Section
               title="Goals"
               list={[
@@ -213,14 +213,14 @@ export default function Page() {
         </div>
 
         <Section
-          title="Test Feature"
+          title="Quiz Feature"
           body="Research made clear that just reading the articles won't be enough to learn about first aid. That's why I have incorporated tests on the app, users can learn easily by doing quizzes. There are 10 random questions in the test and after answering them explanation will appear, if they give the wrong answer there will be a hint, and questions won't go to the next until the correct answer is selected. "
           className=""
         />
 
         <div className="mt-8">
           <Image
-            src={`/assets/first-aid-test.png`}
+            src={`/assets/first-aid-quiz.png`}
             width={1120}
             height={444}
             alt="1"
@@ -236,7 +236,7 @@ export default function Page() {
 
         <div className="mt-8">
           <Image
-            src={`/assets/first-aid-test.png`}
+            src={`/assets/first-aid-articles.png`}
             width={1120}
             height={444}
             alt="1"
@@ -268,7 +268,7 @@ export default function Page() {
 
           <div className="mt-8">
             <Image
-              src={`/assets/accessability-1.png`}
+              src={`/assets/first-aid-steps.png`}
               width={526}
               height={495}
               alt="1"
