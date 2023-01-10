@@ -91,9 +91,9 @@ export default function Page() {
           />
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 mb-16">
           <Image
-            src={`/assets/gluten-free-intro.png`}
+            src={`/assets/gluten-free-introduction.png`}
             width={1120}
             height={444}
             alt="1"
@@ -106,9 +106,9 @@ export default function Page() {
           body="After logging in, the app should be easy to navigate, so I chose a taskbar for navigation. Users can scroll up or down the list view on the map."
         />
 
-        <div className="mt-8">
+        <div className="mt-12 mb-16">
           <Image
-            src={`/assets/gluten-free-hero.png`}
+            src={`/assets/gluten-free-home.png`}
             width={1120}
             height={444}
             alt="1"
@@ -121,7 +121,7 @@ export default function Page() {
           body="From the Task Bar user are able to navigate to the profile screen where they can choose the language or theme of the app, log out and get help."
         />
 
-        <div className="mt-8">
+        <div className="mt-12 mb-16">
           <Image
             src={`/assets/gluten-free-profile.png`}
             width={1120}
@@ -136,9 +136,9 @@ export default function Page() {
           body="Users can navigate to the favorites list where the saved restaurants are and read more about them, remove them from the list, or share the entire list."
         />
 
-        <div className="mt-8">
+        <div className="mt-12 mb-16">
           <Image
-            src={`/assets/gluten-free-favorites-share.png`}
+            src={`/assets/gluten-free-favorites.png`}
             width={1120}
             height={444}
             alt="1"
@@ -151,7 +151,7 @@ export default function Page() {
           body="Using the filter users are able to easily find a restaurant with their specifications. For eg, they can filter by food category, restaurant type, opening hours etc. That feature makes the app much more convenient and easy to use."
         />
 
-        <div className="mt-8">
+        <div className="mt-12 mb-16">
           <Image
             src={`/assets/gluten-free-filter.png`}
             width={1120}
@@ -166,9 +166,9 @@ export default function Page() {
           body="Gluten-free bakeries and restaurants are often overly expensive. So, before visiting the place would be great to have an overall idea of how pricey it is. Price indicators and customer reviews would be helpful for this. Hence, there is a restaurant info page where users can read their descriptions and reviews, make a call to reserve, get restaurants' locations to navigate, write reviews after visiting and add them to their favorite list."
         />
 
-        <div className="mt-8">
+        <div className="mt-12 mb-20">
           <Image
-            src={`/assets/gluten-free-reviews-indicators.png`}
+            src={`/assets/gluten-free-reviews.png`}
             width={1120}
             height={444}
             alt="1"
@@ -178,7 +178,7 @@ export default function Page() {
 
         <SectionHeader title="Light and Dark Themes" />
 
-        <div className="mt-8">
+        <div className="mt-4 mb-16">
           <Image
             src={`/assets/gluten-free-screens.png`}
             width={1120}
@@ -190,7 +190,7 @@ export default function Page() {
 
         <Text variant="title">Design System</Text>
 
-        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-2 md:mb-24 flex md:flex-row flex-col">
           <Section
             title="Colors"
             body="I chose a white background and metallic silver as a primary color. There is a lot of reading in the app, so I needed color which would not be annoying for users' eyes, which would be solid and clean. Also, the white and silver color is kind of kitchen colors, like a white dining table with white dishes, silver spoons, and forks, a white chef's uniform with silver pots and pans. So that is how I got the idea. "
@@ -204,7 +204,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="mt-8">
+        <div className="mt-4">
           <Image
             src={`/assets/gluten-free-design-system.png`}
             width={1120}
@@ -214,7 +214,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="md:mt-24 mt-12">
+        <div className="md:mt-72 mt-12">
           <ProjectFinal />
         </div>
       </div>

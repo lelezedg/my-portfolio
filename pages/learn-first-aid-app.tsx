@@ -289,7 +289,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="md:mt-24 mt-12">
+        <div className="md:mt-72 mt-12">
           <ProjectFinal />
         </div>
       </div>
