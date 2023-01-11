@@ -86,7 +86,7 @@ export default function Page() {
           Usability Tests
         </Text>
 
-        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col-reverse">
           <Section
             title="Prototype & Scenarios for Tests"
             body="After analyzing the insights from the interviews I started creating low-fidelity wireframes and created the first prototype in Axure that was used for usability testing.
@@ -166,7 +166,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col-reverse">
           <div className="basis-1/2 mt-8 self-start">
             <Image
               src={`/assets/food-waste-home.png`}
@@ -186,7 +186,7 @@ export default function Page() {
               "users are able to click the community and see what others are donating.",
               "In order to encourage first-time users to take action, I've added a microcopy with an arrow and instructions for them to start donating, that’s an empty state.",
             ]}
-            className="basis-1/2 mt-8 ml-24"
+            className="basis-1/2 mt-8 md:ml-24"
           />
         </div>
 
@@ -267,7 +267,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="md:mt-72 mt-12">
+        <div className="md:mt-72 mt-24">
           <ProjectFinal navigationURL={prototypeURL} />
         </div>
       </div>

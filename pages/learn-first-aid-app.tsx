@@ -293,7 +293,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="md:mt-72 mt-12">
+        <div className="md:mt-72 mt-24">
           <ProjectFinal navigationURL={prototypeURL} />
         </div>
       </div>

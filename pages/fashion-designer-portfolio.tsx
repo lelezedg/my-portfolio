@@ -66,7 +66,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col-reverse">
           <div className="basis-1/2 mt-8 self-start">
             <Image
               src={`/assets/marikone-upgrading-wireframes.png`}
@@ -80,7 +80,7 @@ export default function Page() {
           <Section
             title="Upgrading Wireframes"
             body="The brand Marikone has already had its own custom logo created and has been using light pink as a brand color for years. It was essential to keep the same tone and style as its customers already were familiar with. I’ve decided to use that pink as an accent color, but to make it accent there was the necessity of a darker background, additionally, the dark background would also be suitable to present colorful product images."
-            className="basis-1/2 mt-8 ml-24"
+            className="basis-1/2 mt-8 md:ml-24"
           />
         </div>
 
@@ -106,7 +106,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col-reverse">
           <div className="basis-1/2 mt-8">
             <Image
               src={`/assets/marikone-sales.png`}
@@ -124,7 +124,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col mb-12">
           <Section
             title="Contact & Locations"
             body="At the end of the page, there is provided a contact form and Marikone's store locations."
@@ -154,7 +154,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="md:mt-32 mt-12">
+        <div className="md:mt-32 mt-24">
           <ProjectFinal navigationURL={prototypeURL} />
         </div>
       </div>
