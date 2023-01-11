@@ -12,7 +12,7 @@ const prototypeURL = "https://marikone.com/";
 
 export default function Page() {
   return (
-    <Layout title="Project | Fashion Designer Portfolio">
+    <Layout title="Project | Fashion Designer">
       <div className="md:mt-16 md:-mb-16">
         <ProjectHero
           title="Fashion Designer’s Portfolio"

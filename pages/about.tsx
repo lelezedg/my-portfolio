@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function About() {
   return (
     <Layout title="About | eleneux.com">
-      <div className="flex flex-row md:mt-32 ">
-        <div className="basis-2/3 pr-24">
+      <div className="flex md:flex-row flex-col-reverse md:mt-32 ">
+        <div className="basis-2/3 md:pr-24">
           <Text variant="title">About Me</Text>
 
           <Text variant="body" className="mt-4">
@@ -44,7 +44,8 @@ export default function About() {
             Outside work, you can find me roller skating! 🛼
           </Text>
         </div>
-        <div>
+
+        <div className="flex flex-col items-start">
           <Image
             src={`/assets/author.png`}
             width={256}
@@ -53,9 +54,9 @@ export default function About() {
             quality={100}
           />
 
-          <div className="pt-8">
+          <div className="pt-8 mb-12">
             <Text variant="body">Contact At:</Text>
-            <Text variant="body" className="text-link">
+            <Text variant="body" className="text-link mt-1">
               elene.uxdesign@gmail.com
             </Text>
           </div>
