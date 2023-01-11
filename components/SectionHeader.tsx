@@ -30,7 +30,7 @@ export const SectionHeader = ({ title, className }: TSectionHeader) => {
       default:
         break;
     }
-  }, []);
+  }, [pathname]);
 
   return (
     <div className={`flex flex-col ${className}`}>

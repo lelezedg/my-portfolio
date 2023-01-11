@@ -42,7 +42,7 @@ export const MenuItem = ({
         setColor("text-purple-400");
         break;
     }
-  }, []);
+  }, [pathname]);
 
   return (
     <Link className="flex flex-row text-end justify-end my-2" href={link}>

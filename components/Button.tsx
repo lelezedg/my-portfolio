@@ -33,7 +33,7 @@ export const Button = ({
         setColor("bg-purple-200");
         break;
     }
-  }, []);
+  }, [pathname]);
 
   return (
     <button

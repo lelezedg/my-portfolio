@@ -9,13 +9,13 @@ export default function About() {
           <Text variant="title">About Me</Text>
 
           <Text variant="body" className="mt-4">
-            I'm Elene, UX/UI Designer with a mission to create delightful
+            I&apos;m Elene, UX/UI Designer with a mission to create delightful
             experiences and lovable products for people! Ever since childhood,
             I’ve wondered why people make the decisions they do, and find it
-            exciting to guess others' emotions, thoughts, or motivations. I've
-            always loved putting myself in someone else's shoes and later
-            realized that it’s a superb skill named empathy. That's one reason
-            why UX design is so enjoyable to me.
+            exciting to guess others&apos; emotions, thoughts, or motivations.
+            I&apos;ve always loved putting myself in someone else&apos;s shoes
+            and later realized that it’s a superb skill named empathy.
+            That&apos;s one reason why UX design is so enjoyable to me.
           </Text>
 
           <Text variant="body" className="mt-4">
@@ -36,8 +36,8 @@ export default function About() {
             I truly enjoyed being UX Researcher and gained remarkable experience
             that makes me very comfortable working with other researchers.
             During that time, I realized I wanted the entire package of UX, and
-            wanted to use my other design skills too. That's how I moved to a
-            design agency as a Product Designer.
+            wanted to use my other design skills too. That&apos;s how I moved to
+            a design agency as a Product Designer.
           </Text>
 
           <Text variant="body" className="mt-4">
