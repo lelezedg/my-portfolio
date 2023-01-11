@@ -46,7 +46,11 @@ export const Menu = () => {
           isActive={pathname === "/fashion-designer-portfolio"}
         />
 
-        <MenuItem title="About" />
+        <MenuItem
+          title="About"
+          link="/about"
+          isActive={pathname === "/about"}
+        />
       </div>
 
       <div className="mt-7 flex -mx-2">
