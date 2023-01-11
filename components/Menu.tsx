@@ -54,17 +54,29 @@ export const Menu = () => {
       </div>
 
       <div className="mt-7 flex -mx-2">
-        <div className="mx-2">
+        <Link
+          className="mx-2"
+          href="https://www.linkedin.com/in/elenezed/"
+          target="_blank"
+        >
           <LinkedinIcon />
-        </div>
+        </Link>
 
-        <div className="mx-2">
+        <Link
+          className="mx-2"
+          href="https://www.behance.net/EleneZed"
+          target="_blank"
+        >
           <BehanceIcon />
-        </div>
+        </Link>
 
-        <div className="mx-2">
+        <Link
+          className="mx-2"
+          href="https://dribbble.com/EleneZed"
+          target="_blank"
+        >
           <DribbleIcon />
-        </div>
+        </Link>
       </div>
     </div>
   );
