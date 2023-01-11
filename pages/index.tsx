@@ -36,6 +36,7 @@ export default function Home() {
             subtitle="Responsive portfolio website, where people can find designer’s collection and contact details."
             image="marikone-cover"
             backgroundStyle="bg-gradient-to-r from-purple-100 to-purple-200"
+            link="/fashion-designer-portfolio"
           />
         </div>
       </div>

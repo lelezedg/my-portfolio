@@ -35,6 +35,9 @@ export const MenuItem = ({
       case "/reduce-food-waste-app":
         setColor("text-orange-400");
         break;
+      case "/fashion-designer-portfolio":
+        setColor("text-purple-400");
+        break;
     }
   }, []);
 

@@ -24,7 +24,9 @@ export const SectionHeader = ({ title, className }: TSectionHeader) => {
       case "/reduce-food-waste-app":
         setIconColor("text-orange-200");
         break;
-
+      case "/fashion-designer-portfolio":
+        setIconColor("text-purple-200");
+        break;
       default:
         break;
     }

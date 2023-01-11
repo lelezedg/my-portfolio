@@ -39,7 +39,12 @@ export const Menu = () => {
           isActive={pathname === "/reduce-food-waste-app"}
         />
 
-        <MenuItem title="Fashion Designer" variant="web" />
+        <MenuItem
+          title="Fashion Designer"
+          variant="web"
+          link="/fashion-designer-portfolio"
+          isActive={pathname === "/fashion-designer-portfolio"}
+        />
 
         <MenuItem title="About" />
       </div>

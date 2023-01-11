@@ -29,6 +29,9 @@ export const Button = ({
       case "/reduce-food-waste-app":
         setColor("bg-orange-200");
         break;
+      case "/fashion-designer-portfolio":
+        setColor("bg-purple-200");
+        break;
     }
   }, []);
 
