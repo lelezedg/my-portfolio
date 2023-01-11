@@ -3,10 +3,10 @@ import { Text } from "./Text";
 import { Button } from "./Button";
 
 type TProjectFinal = {
-  link?: string;
+  navigationURL?: string;
 };
 
-export const ProjectFinal = ({ link }: TProjectFinal) => {
+export const ProjectFinal = ({ navigationURL = "/" }: TProjectFinal) => {
   return (
     <div className="flex flex-col items-center">
       <Text variant="title">Thank you!</Text>
@@ -14,7 +14,10 @@ export const ProjectFinal = ({ link }: TProjectFinal) => {
         Click on the button if you’d like to check the prototype!
       </Text>
 
-      <Button label="View Prototype" />
+      <Button
+        label="View Prototype"
+        onClick={() => window.open(navigationURL, "_blank")}
+      />
     </div>
   );
 };

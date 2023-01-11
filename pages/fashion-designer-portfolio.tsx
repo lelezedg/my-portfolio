@@ -8,6 +8,8 @@ import {
 } from "../components";
 import Image from "next/image";
 
+const prototypeURL = "https://marikone.com/";
+
 export default function Page() {
   return (
     <Layout title="Project | Fashion Designer Portfolio">
@@ -17,6 +19,7 @@ export default function Page() {
           subtile="Fashion designer's Responsive website, where people can find her collection and contact details."
           coverImage="marikone-hero"
           buttonLabel="View Prototype"
+          navigationURL={prototypeURL}
         />
 
         <Text variant="title">Project Overview</Text>
@@ -152,7 +155,7 @@ export default function Page() {
         </div>
 
         <div className="md:mt-32 mt-12">
-          <ProjectFinal />
+          <ProjectFinal navigationURL={prototypeURL} />
         </div>
       </div>
     </Layout>

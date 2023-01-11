@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Text } from "./Text";
-import { useRouter } from "next/router";
 import { Button } from "./Button";
 
 type TProjectHero = {
@@ -19,8 +18,6 @@ export const ProjectHero = ({
   navigationURL = "/",
   buttonLabel,
 }: TProjectHero) => {
-  const router = useRouter();
-
   return (
     <div className="flex flex-grow md:flex-row flex-col-reverse md:mb-32">
       <div className="flex flex-col md:justify-start md:items-start items-center">
@@ -31,7 +28,7 @@ export const ProjectHero = ({
 
         <div>
           <Button
-            onClick={() => router.push(`/${navigationURL}`)}
+            onClick={() => window.open(navigationURL, "_blank")}
             className="mb-24"
             label={buttonLabel}
           />

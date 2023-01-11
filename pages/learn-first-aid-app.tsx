@@ -8,6 +8,9 @@ import {
 } from "../components";
 import Image from "next/image";
 
+const prototypeURL =
+  "https://www.figma.com/proto/hR2gUXVFo1Dmj5vhjnEcXW/First-Aid-App?node-id=21%3A2535&scaling=scale-down&page-id=0%3A1&starting-point-node-id=21%3A452";
+
 export default function Page() {
   return (
     <Layout title="Project | Learn First Aid">
@@ -17,6 +20,7 @@ export default function Page() {
           subtile="App allows people to refresh their First Aid knowledge with simple illustrated fun Exams"
           coverImage="first-aid-hero"
           buttonLabel="View Prototype"
+          navigationURL={prototypeURL}
         />
 
         <Text variant="title">Project Overview</Text>
@@ -290,7 +294,7 @@ export default function Page() {
         </div>
 
         <div className="md:mt-72 mt-12">
-          <ProjectFinal />
+          <ProjectFinal navigationURL={prototypeURL} />
         </div>
       </div>
     </Layout>

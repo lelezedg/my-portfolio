@@ -8,6 +8,9 @@ import {
 } from "../components";
 import Image from "next/image";
 
+const prototypeURL =
+  "https://www.figma.com/proto/RMGOoiFKZlpysEcjEb6BFu/Gluten-Free-Restaurant-Finder-(Copy)?node-id=103%3A8632&scaling=scale-down&page-id=0%3A1&starting-point-node-id=103%3A8632&show-proto-sidebar=1";
+
 export default function Page() {
   return (
     <Layout title="Project | Gluten Free Finder">
@@ -17,6 +20,7 @@ export default function Page() {
           subtile="App guides people to discover Gluten-Free restaurants worldwide."
           coverImage="gluten-free-hero"
           buttonLabel="View Prototype"
+          navigationURL={prototypeURL}
         />
 
         <Text variant="title">Project Overview</Text>
@@ -215,7 +219,7 @@ export default function Page() {
         </div>
 
         <div className="md:mt-72 mt-12">
-          <ProjectFinal />
+          <ProjectFinal navigationURL={prototypeURL} />
         </div>
       </div>
     </Layout>
