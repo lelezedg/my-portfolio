@@ -34,13 +34,14 @@ export default function Page() {
 
           <Section
             title="My Role & Project Duration"
-            body="UX/UI Designer 1-Week UX/UI Challenge"
+            body="UX/UI Designer"
+            finalText="1-Week UX/UI Challenge"
             className="basis-1/3 mt-8"
           />
 
           <Section
             title="The Goal"
-            body="The goal was to create a user-friendly application to help them find gluten-free restaurants anywhere."
+            body="The goal was to create a user-friendly application to help people find gluten-free restaurants anywhere."
             className="basis-1/3 mt-8"
           />
         </div>

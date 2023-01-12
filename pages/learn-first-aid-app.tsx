@@ -17,7 +17,7 @@ export default function Page() {
       <div className="md:mt-16">
         <ProjectHero
           title="Learn First Aid"
-          subtile="App allows people to refresh their First Aid knowledge with simple illustrated fun Exams"
+          subtile="App allows people to refresh their First Aid knowledge with simple illustrated fun exam"
           coverImage="first-aid-hero"
           buttonLabel="View Prototype"
           navigationURL={prototypeURL}
@@ -34,14 +34,15 @@ export default function Page() {
 
           <Section
             title="My Role & Responsibilities"
+            body="Product Designer & UX Researcher"
             list={[
-              "Product Designer & UX Researcher",
               "Conducting interviews & usability studies",
               "Digital wireframing",
               "Accounting for accessibility,",
-              "Iterating on des",
+              "Iterating on designs",
               "Information architecture.",
             ]}
+            finalText="6 Weeks"
             className="basis-1/3 mt-8"
           />
 
@@ -65,8 +66,8 @@ export default function Page() {
 
           <Section
             title="Problem Statement #1"
-            body="Based on the research insights I’ve created 2 personas and problem statements: 
-            Stella is a part-time graphic designer and mom, who needs to find a platform that she will use in teaching her kid first aid."
+            body="Based on the research insights I’ve created 2 personas and problem statements:"
+            finalText="Stella is a part-time graphic designer and mom, who needs to find a platform that she will use in teaching her kid first aid."
             className="basis-1/3 mt-8"
           />
 
@@ -89,7 +90,7 @@ export default function Page() {
               quality={100}
             />
 
-            <div className="mt-4">
+            <div className="mt-4 pr-12">
               <Text variant="subtitle">Stella, 32</Text>
               <Text variant="body">
                 Lives in Tbilisi with 8 y/o daughter, has BA degree in
@@ -139,7 +140,7 @@ export default function Page() {
               quality={100}
             />
 
-            <div className="mt-4">
+            <div className="mt-4 pr-12">
               <Text variant="subtitle">Jennifer, 19</Text>
               <Text variant="body">
                 Lives alone in Tbilisi, pursuing a bachelors degree in business
@@ -150,8 +151,8 @@ export default function Page() {
 
           <Section
             title="About"
-            body="Jennifer is a full-time student who has just moved to another city for the university. She lived very comfortably with her parents, and it was quite difficult to leave the hometown. She has never lived alone before and has no such experience, it all causes her anxiety.
-            I do not even know what to do during an earthquake and I always think about it which is annoying says Jennifer After moving in alone she began looking for information about first aid and how to prepare for emergencies. It is not easy to find that kind of information she needs."
+            body="Jennifer is a full-time student who has just moved to another city for the university. She lived very comfortably with her parents, and it was quite difficult to leave the hometown. She has never lived alone before and has no such experience, it all causes her anxiety."
+            finalText="''I do not even know what to do during an earthquake and I always think about it which is annoying'' - says Jennifer After moving in alone she began looking for information about first aid and how to prepare for emergencies. It is not easy to find that kind of information she needs."
             className="basis-1/3 md:mt-0 mt-8"
           />
 

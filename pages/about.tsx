@@ -56,7 +56,7 @@ export default function About() {
 
           <div className="pt-8 mb-12">
             <Text variant="body">Contact At:</Text>
-            <Text variant="body" className="text-link mt-1">
+            <Text variant="body" className="text-base-link">
               elene.uxdesign@gmail.com
             </Text>
           </div>

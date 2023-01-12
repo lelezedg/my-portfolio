@@ -18,7 +18,7 @@ export default function Page() {
           title="Fashion Designer’s Portfolio"
           subtile="Fashion designer's Responsive website, where people can find her collection and contact details."
           coverImage="marikone-hero"
-          buttonLabel="View Prototype"
+          buttonLabel="View Website"
           navigationURL={prototypeURL}
         />
 
@@ -33,7 +33,8 @@ export default function Page() {
 
           <Section
             title="My Role & Project Duration"
-            list={["UX/UI Designer", "1 Week"]}
+            list={["UX/UI Designer"]}
+            finalText="1 Week"
             className="basis-1/3 mt-8"
           />
 
@@ -79,7 +80,7 @@ export default function Page() {
 
           <Section
             title="Upgrading Wireframes"
-            body="The brand Marikone has already had its own custom logo created and has been using light pink as a brand color for years. It was essential to keep the same tone and style as its customers already were familiar with. I’ve decided to use that pink as an accent color, but to make it accent there was the necessity of a darker background, additionally, the dark background would also be suitable to present colorful product images."
+            body="The brand Marikone has already had its own custom logo created and has been using light pink as a brand color for years. It was essential to keep the same tone and style as its customers already were familiar with. I’ve decided to use that pink as an accent color."
             className="basis-1/2 mt-8 md:ml-24"
           />
         </div>

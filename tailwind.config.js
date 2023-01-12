@@ -12,7 +12,7 @@ module.exports = {
         error: "#F37A72",
         success: "#5CD668",
         light: "#FFFFFF",
-        link: "#2C7CED",
+        "base-link": "#2C7CED",
         "primary-dark": "#3A3F46",
         "blue-100": "#F2FBFF",
         "blue-200": "#D9F2FF",

@@ -33,7 +33,8 @@ export default function Page() {
 
           <Section
             title="My Role & Project Duration"
-            list={["Product Designer", "UX Researcher", "8 Weeks"]}
+            list={["Product Designer", "UX Researcher"]}
+            finalText="8 Weeks"
             className="basis-1/3 mt-8"
           />
 
@@ -114,8 +115,8 @@ export default function Page() {
           <div className="basis-1/3 md:mt-0 mt-8 flex justify-center">
             <Image
               src={`/assets/food-waste-usability.png`}
-              width={194}
-              height={400}
+              width={250}
+              height={150}
               alt="1"
               quality={100}
             />
