@@ -21,16 +21,16 @@ export const Button = ({
   useEffect(() => {
     switch (pathname) {
       case "/learn-first-aid-app":
-        setColor("bg-blue-200");
+        setColor("bg-blue-200 hover:bg-blue-300");
         break;
       case "/gluten-free-finder-app":
-        setColor("bg-green-200");
+        setColor("bg-green-200 hover:bg-green-300");
         break;
       case "/reduce-food-waste-app":
-        setColor("bg-orange-200");
+        setColor("bg-orange-200 hover:bg-orange-300");
         break;
       case "/fashion-designer-portfolio":
-        setColor("bg-purple-200");
+        setColor("bg-purple-200 hover:bg-purple-300");
         break;
     }
   }, [pathname]);
