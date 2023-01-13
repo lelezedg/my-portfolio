@@ -73,7 +73,8 @@ export default function Page() {
 
           <Section
             title="Problem Statement #2"
-            body="Based on the research insights I’ve created 2 personas and problem statements: Jennifer is a full-time student who needs an app that teaches her how to handle emergencies to get used to living alone."
+            body="Based on the research insights I’ve created 2 personas and problem statements:"
+            finalText="Jennifer is a full-time student who needs an app that teaches her how to handle emergencies to get used to living alone."
             className="basis-1/3 mt-8"
           />
         </div>
@@ -101,8 +102,8 @@ export default function Page() {
 
           <Section
             title="About"
-            body="Stella has many responsibilities on a daily basis. She takes care of a daughter and works as a graphic designer part-time, she works mostly from home but goes into the office occasionally. Stella loves to travel, draw, read books, and loves her husband and 8-years-old kid. 
-            Stella constantly cares about her child’s safety, but often has to deal with childhood injuries. Stella wants to teach her daughter how to behave if she falls down in the yard or cuts her hand. She needs her daughter to be prepared for emergencies."
+            body="Stella has many responsibilities on a daily basis. She takes care of a daughter and works as a graphic designer part-time, she works mostly from home but goes into the office occasionally. Stella loves to travel, draw, read books, and loves her husband and 8-years-old kid."
+            finalText="Stella constantly cares about her child’s safety, but often has to deal with childhood injuries. Stella wants to teach her daughter how to behave if she falls down in the yard or cuts her hand. She needs her daughter to be prepared for emergencies."
             className="basis-1/3 md:mt-0 mt-8"
           />
 
@@ -201,8 +202,8 @@ export default function Page() {
 
           <Section
             title="Insights-based Changes"
-            body="Based on the insights from the usability studies, I applied some changes, I’ve added tests section because of the users’ needs.
-            Illustrations make the article interesting and visually appealing. Texts are simplified and easy to read even for the children."
+            body="Based on the insights from the usability studies, I applied some changes, I’ve added tests section because of the users’ needs."
+            finalText="Illustrations make the article interesting and visually appealing. Texts are simplified and easy to read even for the children."
             className="basis-1/3 mt-8"
           />
         </div>
