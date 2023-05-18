@@ -26,6 +26,9 @@ export const MenuItem = ({
       case "/":
         setColor("text-active");
         break;
+      case "/illustrations":
+        setColor("text-active");
+        break;
       case "/about":
         setColor("text-active");
         break;
