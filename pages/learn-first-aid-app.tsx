@@ -8,8 +8,7 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL =
-  "https://www.figma.com/proto/hR2gUXVFo1Dmj5vhjnEcXW/First-Aid-App?node-id=21%3A452&scaling=scale-down&page-id=0%3A1&starting-point-node-id=21%3A452";
+const prototypeURL = "bit.ly/learn-first-aid";
 
 export default function Page() {
   return (

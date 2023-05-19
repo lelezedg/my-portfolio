@@ -8,8 +8,7 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL =
-  "https://www.figma.com/proto/8TO0dOLUqk4w3P8vTMIrHK/Reduce-Food-Waste?node-id=523%3A8757&scaling=scale-down&page-id=519%3A6123&starting-point-node-id=523%3A8757&show-proto-sidebar=1";
+const prototypeURL = "bit.ly/reduce-waste-app";
 
 export default function Page() {
   return (

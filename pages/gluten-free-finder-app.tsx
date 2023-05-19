@@ -8,8 +8,7 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL =
-  "https://www.figma.com/proto/RMGOoiFKZlpysEcjEb6BFu/Gluten-Free-Restaurant-Finder-(Copy)?node-id=103%3A8632&scaling=scale-down&page-id=0%3A1&starting-point-node-id=103%3A8632&show-proto-sidebar=1";
+const prototypeURL = "bit.ly/gluten-free-finder";
 
 export default function Page() {
   return (
