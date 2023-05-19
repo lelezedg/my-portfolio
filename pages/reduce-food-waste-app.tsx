@@ -4,6 +4,7 @@ import {
   Section,
   Text,
   ProjectFinal,
+  SectionHeader,
 } from "../components";
 import Image from "next/image";
 
@@ -266,6 +267,18 @@ export default function Page() {
               quality={100}
             />
           </div>
+        </div>
+
+        <SectionHeader title="App Screens" />
+
+        <div className="mt-8">
+          <Image
+            src={`/assets/food-waste-screens.png`}
+            width={1120}
+            height={444}
+            alt="1"
+            quality={100}
+          />
         </div>
 
         <div className="md:mt-72 mt-24">
