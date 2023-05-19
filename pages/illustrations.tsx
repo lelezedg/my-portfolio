@@ -1,33 +1,26 @@
-import { Card, Layout, Text } from "../components";
+import { Layout } from "../components";
 import Image from "next/image";
+import Cosyroom from "../public/assets/cosyroom.png";
+import ShopImage from "../public/assets/shop.png";
 
 export default function Illustrations() {
   return (
     <Layout title="Illustrations | eleneux.com">
       <div className="md:mt-28 ">
-        <div className="flex md:flex-row flex-col justify-between gap-6 my-8">
-          <div className="relative md:w-[35vw] md:h-[25vw] w-[85vw] h-[70vw]">
-            <Image
-              src={`/assets/cosyroom.png`}
-              fill
-              alt="1"
-              quality={100}
-              className="rounded-lg"
-            />
-          </div>
-
-          <div className="relative md:w-[25vw] md:h-[25vw] w-[85vw] h-[70vw]">
-            <Image
-              src={`/assets/shop.png`}
-              fill
-              alt="1"
-              quality={100}
-              className="rounded-lg"
-            />
-          </div>
+        <div className="flex md:flex-row flex-col justify-between items-center gap-6 my-8">
+          <Image
+            src={Cosyroom}
+            alt="1"
+            className="rounded-lg md:h-[30vw] h-[90vw]"
+          />
+          <Image
+            src={ShopImage}
+            alt="2"
+            className="rounded-lg md:h-[30vw] h-[90vw]"
+          />
         </div>
 
-        <div className="flex md:flex-row flex-col justify-between gap-6 my-8">
+        {/* <div className="flex md:flex-row flex-col justify-between gap-6 my-8">
           <div className="relative md:w-[33vw] md:h-[25vw] w-[85vw] h-[100vw]">
             <Image
               src={`/assets/fall.jpg`}
@@ -57,9 +50,9 @@ export default function Illustrations() {
               className="rounded-lg"
             />
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex md:flex-row flex-col justify-between gap-6 my-8">
+        {/* <div className="flex md:flex-row flex-col justify-between gap-6 my-8">
           <div className="relative md:w-[25vw] md:h-[30vw] w-[85vw] h-[100vw]">
             <Image
               src={`/assets/babygirl.jpg`}
@@ -79,7 +72,7 @@ export default function Illustrations() {
               className="rounded-lg"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
