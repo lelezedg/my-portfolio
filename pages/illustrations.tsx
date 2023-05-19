@@ -12,11 +12,13 @@ export default function Illustrations() {
             src={Cosyroom}
             alt="1"
             className="rounded-lg md:h-[30vw] h-[90vw]"
+            quality={30}
           />
           <Image
             src={ShopImage}
             alt="2"
             className="rounded-lg md:h-[30vw] h-[90vw]"
+            quality={30}
           />
         </div>
 
