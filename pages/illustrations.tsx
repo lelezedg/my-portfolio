@@ -7,19 +7,24 @@ export default function Illustrations() {
   return (
     <Layout title="Illustrations | eleneux.com">
       <div className="md:mt-28 ">
-        <div className="flex md:flex-row flex-col justify-between items-center gap-6 my-8">
-          <Image
-            src={Cosyroom}
-            alt="1"
-            className="rounded-lg md:h-[30vw] h-[90vw]"
-            quality={30}
-          />
-          <Image
-            src={ShopImage}
-            alt="2"
-            className="rounded-lg md:h-[30vw] h-[90vw]"
-            quality={30}
-          />
+        <div className="flex md:flex-row flex-col items-center gap-6 my-8">
+          <div className="basis-[60%]">
+            <Image
+              src={Cosyroom}
+              alt="1"
+              className="rounded-lg md:h-[400px] h-[300px]"
+              quality={30}
+            />
+          </div>
+
+          <div className="basis-[40%]">
+            <Image
+              src={ShopImage}
+              alt="2"
+              className="rounded-lg md:h-[400px] h-[300px]"
+              quality={30}
+            />
+          </div>
         </div>
 
         {/* <div className="flex md:flex-row flex-col justify-between gap-6 my-8">
