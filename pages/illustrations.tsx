@@ -12,8 +12,7 @@ import FireGIF from "../public/assets/fire.gif";
 import FrogImage from "../public/assets/frog.png";
 import CatImage from "../public/assets/cat.png";
 import PurpleRoomImage from "../public/assets/purpleroom.png";
-import OctopusGIF from "../public/assets/Octopus.gif";
-
+import OctopusGIF from "../public/assets/octopus.gif";
 import RocketGIF from "../public/assets/rocket.gif";
 
 export default function Illustrations() {
