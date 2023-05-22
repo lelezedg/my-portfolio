@@ -2,7 +2,6 @@ import Head from "next/head";
 import React, { useState } from "react";
 import { MenuCloseIcon, MenuIcon } from "../icons";
 import { AnimatedView } from "./AnimatedView";
-import { Button } from "./Button";
 import { Footer } from "./Footer";
 import { Menu } from "./Menu";
 
@@ -30,12 +29,12 @@ export const Layout = ({ children, title }: TLayout) => {
         <div className="flex-grow overflow-scroll scrollbar px-6 md:px-0">
           <AnimatedView className="md:hidden visible fixed right-6">
             <AnimatedView className="flex justify-end">
-              <Button
+              <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="flex self-end px-0 bg-transparent"
               >
                 {isMenuOpen ? <MenuCloseIcon /> : <MenuIcon />}
-              </Button>
+              </button>
             </AnimatedView>
 
             <AnimatedView className="mt-8 mr-2">
