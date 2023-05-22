@@ -45,7 +45,7 @@ export default function Illustrations() {
               src={FallImage}
               alt="1"
               quality={30}
-              className="rounded-lg md:h-[400px] h-[400px]"
+              className="rounded-lg md:h-[430px] h-[400px]"
             />
           </div>
 
@@ -54,7 +54,7 @@ export default function Illustrations() {
               src={ScaryImage}
               alt="1"
               quality={30}
-              className="rounded-lg md:h-[400px] h-[400px]"
+              className="rounded-lg md:h-[430px] h-[400px]"
             />
           </div>
 
@@ -63,7 +63,7 @@ export default function Illustrations() {
               src={SnowImage}
               alt="1"
               quality={30}
-              className="rounded-lg md:h-[400px] h-[400px]"
+              className="rounded-lg md:h-[430px] h-[400px]"
             />
           </div>
         </div>
