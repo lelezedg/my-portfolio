@@ -19,7 +19,7 @@ export const ProjectHero = ({
   buttonLabel,
 }: TProjectHero) => {
   return (
-    <div className="flex flex-grow md:flex-row flex-col-reverse md:mb-32">
+    <div className="flex flex-grow md:flex-row flex-col-reverse justify-between md:mb-32">
       <div className="flex flex-col md:justify-start md:items-start items-center">
         <Text variant="headline">{title}</Text>
         <Text variant="body" className="mt-2 mb-8 text-center md:text-start">
@@ -38,8 +38,8 @@ export const ProjectHero = ({
       <div className="md:justify-end items-center pb-8 ">
         <Image
           src={`/assets/${coverImage}.png`}
-          width={900}
-          height={500}
+          width={500}
+          height={300}
           alt="_"
         />
       </div>

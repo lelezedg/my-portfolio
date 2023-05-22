@@ -21,16 +21,16 @@ export const Button = ({
   useEffect(() => {
     switch (pathname) {
       case "/learn-first-aid-app":
-        setColor("bg-blue-200 hover:bg-blue-300");
+        setColor("bg-blue-200 hover:bg-blue-300 transition duration-300");
         break;
       case "/gluten-free-finder-app":
-        setColor("bg-green-200 hover:bg-green-300");
+        setColor("bg-green-200 hover:bg-green-300 transition duration-300");
         break;
       case "/reduce-food-waste-app":
-        setColor("bg-orange-200 hover:bg-orange-300");
+        setColor("bg-orange-200 hover:bg-orange-300 transition duration-300");
         break;
       case "/fashion-designer-portfolio":
-        setColor("bg-purple-200 hover:bg-purple-300");
+        setColor("bg-purple-200 hover:bg-purple-300 transition duration-300");
         break;
     }
   }, [pathname]);
@@ -38,13 +38,15 @@ export const Button = ({
   return (
     <button
       onClick={() => onClick()}
-      className={`"mb-24 py-3 px-6 rounded-lg ${color} ${className}`}
+      className={`mb-24 rounded-lg ${color} ${className}`}
     >
-      {label && (
-        <Text variant="body" className="text-gray-400">
-          {label}
-        </Text>
-      )}
+      <div className="flex transition py-3 px-6 duration-500 md:hover:scale-105">
+        {label && (
+          <Text variant="body" className="text-gray-400">
+            {label}
+          </Text>
+        )}
+      </div>
       {children}
     </button>
   );
