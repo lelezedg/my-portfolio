@@ -35,6 +35,9 @@ export const Button = ({
       case "/task-management-app":
         setColor("bg-glacier-200 hover:bg-glacier-300 transition duration-300");
         break;
+      case "/cleaning-company-website":
+        setColor("bg-pink-200 hover:bg-pink-300 transition duration-300");
+        break;
     }
   }, [pathname]);
 

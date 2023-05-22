@@ -33,7 +33,7 @@ module.exports = {
         "pink-100": "#FFF2F2",
         "pink-200": "#FFD9D9",
         "pink-300": "#FFC2C2",
-        "pink-400": "#861E1E",
+        "pink-400": "#FF9999",
         "gray-100": "#E3E5E8",
         "gray-200": "#9FA8B1",
         "gray-300": "#606A75",

@@ -42,11 +42,11 @@ export default function Home() {
 
         <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
-            title="Reduce Food Waste"
-            subtitle="App allows people to share Food & Grocery products with NGO communities."
-            image="food-waste-cover"
-            backgroundStyle="bg-gradient-to-r from-orange-100 to-orange-200"
-            link="/reduce-food-waste-app"
+            title="Cleaning Company Website"
+            subtitle="Responsive website for the cleaning company."
+            image="cleantime-cover"
+            backgroundStyle="bg-gradient-to-r from-pink-100 to-pink-200"
+            link="/cleaning-company-website"
           />
 
           <Card

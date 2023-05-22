@@ -56,6 +56,13 @@ export const Menu = () => {
         />
 
         <MenuItem
+          title="Cleaning Company"
+          variant="web"
+          link="/cleaning-company-website"
+          isActive={pathname === "/cleaning-company-website"}
+        />
+
+        <MenuItem
           title="Task Management"
           variant="web"
           link="/task-management-app"

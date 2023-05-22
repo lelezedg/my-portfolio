@@ -44,6 +44,9 @@ export const MenuItem = ({
       case "/fashion-designer-portfolio":
         setColor("text-purple-400");
         break;
+      case "/cleaning-company-website":
+        setColor("text-pink-400");
+        break;
       case "/task-management-app":
         setColor("text-glacier-400");
         break;
