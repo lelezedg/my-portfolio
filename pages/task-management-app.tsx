@@ -18,7 +18,7 @@ export default function Page() {
           title="Task Management App"
           subtile="Easy and smart tool to manage daily and upcoming tasks at work."
           coverImage="task-hero"
-          buttonLabel="View Prototype"
+          buttonLabel="View Website"
           navigationURL={prototypeURL}
         />
 

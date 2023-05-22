@@ -18,7 +18,7 @@ export default function Page() {
           title="Cleaning Company Website"
           subtile="Responsive website for the cleaning company."
           coverImage="cleantime-hero"
-          buttonLabel="View Prototype"
+          buttonLabel="View Website"
           navigationURL={prototypeURL}
         />
 
