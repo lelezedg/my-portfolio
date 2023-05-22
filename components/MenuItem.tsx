@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Text } from "./Text";
 
-type TMenuItemVariant = "web" | "mobile";
+type TMenuItemVariant = "web" | "app";
 
 type TMenuItem = {
   title: string;
@@ -44,6 +44,9 @@ export const MenuItem = ({
       case "/fashion-designer-portfolio":
         setColor("text-purple-400");
         break;
+      case "/task-management-app":
+        setColor("text-glacier-400");
+        break;
     }
   }, [pathname]);
 
@@ -52,21 +55,21 @@ export const MenuItem = ({
       className="flex flex-row text-end justify-end my-2 transition duration-300 md:hover:scale-105"
       href={link}
     >
-      {variant && (
-        <Text
-          variant={`${isActive ? "menu-active" : "menu-default"}`}
-          className={`mr-1 ${isActive ? color : "text-gray-200"}`}
-        >
-          {variant === "web" ? "Web |" : "Mobile |"}
-        </Text>
-      )}
-
       <Text
         variant={`${isActive ? "menu-active" : "menu-default"}`}
         className={`${isActive && color}`}
       >
         {title}
       </Text>
+
+      {variant && (
+        <Text
+          variant={`${isActive ? "menu-active" : "menu-default"}`}
+          className={`ml-1 text-gray-200`}
+        >
+          {variant === "web" ? " | Web" : " | App"}
+        </Text>
+      )}
     </Link>
   );
 };

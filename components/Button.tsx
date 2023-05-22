@@ -32,6 +32,9 @@ export const Button = ({
       case "/fashion-designer-portfolio":
         setColor("bg-purple-200 hover:bg-purple-300 transition duration-300");
         break;
+      case "/task-management-app":
+        setColor("bg-glacier-200 hover:bg-glacier-300 transition duration-300");
+        break;
     }
   }, [pathname]);
 

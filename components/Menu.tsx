@@ -29,21 +29,21 @@ export const Menu = () => {
 
         <MenuItem
           title="Learn First Aid"
-          variant="mobile"
+          variant="app"
           link="/learn-first-aid-app"
           isActive={pathname === "/learn-first-aid-app"}
         />
 
         <MenuItem
           title="Gluten-Free Finder"
-          variant="mobile"
+          variant="app"
           link="/gluten-free-finder-app"
           isActive={pathname === "/gluten-free-finder-app"}
         />
 
         <MenuItem
           title="Reduce Food Waste"
-          variant="mobile"
+          variant="app"
           link="/reduce-food-waste-app"
           isActive={pathname === "/reduce-food-waste-app"}
         />
@@ -53,6 +53,13 @@ export const Menu = () => {
           variant="web"
           link="/fashion-designer-portfolio"
           isActive={pathname === "/fashion-designer-portfolio"}
+        />
+
+        <MenuItem
+          title="Task Management"
+          variant="web"
+          link="/task-management-app"
+          isActive={pathname === "/task-management-app"}
         />
 
         <MenuItem

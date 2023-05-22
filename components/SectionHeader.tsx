@@ -27,6 +27,9 @@ export const SectionHeader = ({ title, className }: TSectionHeader) => {
       case "/fashion-designer-portfolio":
         setIconColor("text-purple-200");
         break;
+      case "/task-management-app":
+        setIconColor("text-glacier-200");
+        break;
       default:
         break;
     }
