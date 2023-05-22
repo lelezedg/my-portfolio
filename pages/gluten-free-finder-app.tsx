@@ -8,7 +8,7 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL = "bit.ly/gluten-free-finder";
+const prototypeURL = "https://bit.ly/gluten-free-finder";
 
 export default function Page() {
   return (

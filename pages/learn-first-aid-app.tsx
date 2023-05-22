@@ -8,7 +8,7 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL = "bit.ly/learn-first-aid";
+const prototypeURL = "https://bit.ly/learn-first-aid";
 
 export default function Page() {
   return (

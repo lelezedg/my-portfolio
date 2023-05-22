@@ -8,7 +8,7 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL = "bit.ly/marikone";
+const prototypeURL = "https://bit.ly/marikone";
 
 export default function Page() {
   return (
