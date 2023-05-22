@@ -26,8 +26,8 @@ export const Card = ({
         {image && (
           <Image
             src={`/assets/${image}.png`}
-            width={500}
-            height={600}
+            width={400}
+            height={400}
             alt="1"
             quality={30}
           />

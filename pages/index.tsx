@@ -39,6 +39,24 @@ export default function Home() {
             link="/fashion-designer-portfolio"
           />
         </div>
+
+        <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
+          <Card
+            title="Reduce Food Waste"
+            subtitle="App allows people to share Food & Grocery products with NGO communities."
+            image="food-waste-cover"
+            backgroundStyle="bg-gradient-to-r from-orange-100 to-orange-200"
+            link="/reduce-food-waste-app"
+          />
+
+          <Card
+            title="Task Management"
+            subtitle="Easy and smart tool to manage daily and upcoming tasks at work."
+            image="task-cover"
+            backgroundStyle="bg-gradient-to-r from-glacier-100 to-glacier-200"
+            link="/task-management-app"
+          />
+        </div>
       </div>
     </Layout>
   );
