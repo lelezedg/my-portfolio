@@ -48,7 +48,10 @@ export const MenuItem = ({
   }, [pathname]);
 
   return (
-    <Link className="flex flex-row text-end justify-end my-2" href={link}>
+    <Link
+      className="flex flex-row text-end justify-end my-2 transition duration-300 md:hover:scale-105"
+      href={link}
+    >
       {variant && (
         <Text
           variant={`${isActive ? "menu-active" : "menu-default"}`}
