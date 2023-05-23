@@ -134,8 +134,12 @@ export default function Page() {
           />
         </div>
 
-        <div className="md:mt-64 mt-24">
-          <ProjectFinal navigationURL={prototypeURL} />
+        <div className="md:mt-32 mt-24">
+          <ProjectFinal
+            navigationURL={prototypeURL}
+            label="Click on the button if you’d like to check the website!"
+            buttonLabel="View Website"
+          />
         </div>
       </div>
     </Layout>

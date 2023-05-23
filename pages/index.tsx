@@ -24,24 +24,6 @@ export default function Home() {
 
         <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
           <Card
-            title="Reduce Food Waste"
-            subtitle="App allows people to share Food & Grocery products with NGO communities."
-            image="food-waste-cover"
-            backgroundStyle="bg-gradient-to-r from-orange-100 to-orange-200"
-            link="/reduce-food-waste-app"
-          />
-
-          <Card
-            title="Fashion Designer's Website"
-            subtitle="Responsive portfolio website, where people can find designer’s collection and contact details."
-            image="marikone-cover"
-            backgroundStyle="bg-gradient-to-r from-purple-100 to-purple-200"
-            link="/fashion-designer-portfolio"
-          />
-        </div>
-
-        <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
-          <Card
             title="Cleaning Company Website"
             subtitle="Responsive website for the cleaning company."
             image="cleantime-cover"
@@ -55,6 +37,24 @@ export default function Home() {
             image="task-cover"
             backgroundStyle="bg-gradient-to-r from-glacier-100 to-glacier-200"
             link="/task-management-app"
+          />
+        </div>
+
+        <div className="md:-mx-6 flex flex-grow flex-col md:flex-row">
+          <Card
+            title="Reduce Food Waste"
+            subtitle="App allows people to share Food & Grocery products with NGO communities."
+            image="food-waste-cover"
+            backgroundStyle="bg-gradient-to-r from-orange-100 to-orange-200"
+            link="/reduce-food-waste-app"
+          />
+
+          <Card
+            title="Fashion Designer's Website"
+            subtitle="Responsive portfolio website, where people can find designer’s collection and contact details."
+            image="marikone-cover"
+            backgroundStyle="bg-gradient-to-r from-purple-100 to-purple-200"
+            link="/fashion-designer-portfolio"
           />
         </div>
       </div>
