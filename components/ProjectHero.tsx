@@ -38,9 +38,10 @@ export const ProjectHero = ({
       <div className="md:justify-end items-center pb-8 ">
         <Image
           src={`/assets/${coverImage}.png`}
-          width={500}
+          width={450}
           height={300}
           alt="_"
+          quality={30}
         />
       </div>
     </div>

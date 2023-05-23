@@ -42,20 +42,6 @@ export const Menu = () => {
         />
 
         <MenuItem
-          title="Reduce Food Waste"
-          variant="app"
-          link="/reduce-food-waste-app"
-          isActive={pathname === "/reduce-food-waste-app"}
-        />
-
-        <MenuItem
-          title="Fashion Designer"
-          variant="web"
-          link="/fashion-designer-portfolio"
-          isActive={pathname === "/fashion-designer-portfolio"}
-        />
-
-        <MenuItem
           title="Cleaning Company"
           variant="web"
           link="/cleaning-company-website"
@@ -67,6 +53,20 @@ export const Menu = () => {
           variant="web"
           link="/task-management-app"
           isActive={pathname === "/task-management-app"}
+        />
+
+        <MenuItem
+          title="Reduce Food Waste"
+          variant="app"
+          link="/reduce-food-waste-app"
+          isActive={pathname === "/reduce-food-waste-app"}
+        />
+
+        <MenuItem
+          title="Fashion Designer"
+          variant="web"
+          link="/fashion-designer-portfolio"
+          isActive={pathname === "/fashion-designer-portfolio"}
         />
 
         <MenuItem

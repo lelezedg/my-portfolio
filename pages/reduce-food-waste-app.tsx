@@ -115,10 +115,10 @@ export default function Page() {
           <div className="basis-1/3 md:mt-0 mt-8 flex justify-center">
             <Image
               src={`/assets/food-waste-usability.png`}
-              width={250}
-              height={150}
+              width={350}
+              height={400}
               alt="1"
-              quality={100}
+              quality={30}
             />
           </div>
         </div>
@@ -229,10 +229,10 @@ export default function Page() {
           <div className="basis-1/3 md:mt-0 mt-8 flex justify-center">
             <Image
               src={`/assets/food-waste-donation-flow.png`}
-              width={194}
+              width={350}
               height={400}
               alt="1"
-              quality={100}
+              quality={30}
             />
           </div>
         </div>
@@ -260,10 +260,10 @@ export default function Page() {
           <div className="basis-1/3 md:mt-0 mt-8 flex justify-center">
             <Image
               src={`/assets/food-waste-next-steps.png`}
-              width={194}
+              width={350}
               height={400}
               alt="1"
-              quality={100}
+              quality={30}
             />
           </div>
         </div>
@@ -276,7 +276,7 @@ export default function Page() {
             width={1120}
             height={444}
             alt="1"
-            quality={100}
+            quality={30}
           />
         </div>
 
