@@ -12,7 +12,7 @@ const prototypeURL = "https://bit.ly/clean-time";
 
 export default function Page() {
   return (
-    <Layout title="Project | Task Management App">
+    <Layout title="Project | Cleaning Company Website">
       <div className="md:mt-16">
         <ProjectHero
           title="Cleaning Company Website"
