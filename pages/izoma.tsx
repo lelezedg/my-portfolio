@@ -8,17 +8,17 @@ import {
 } from "../components";
 import Image from "next/image";
 
-const prototypeURL = "https://bit.ly/gluten-free-finder";
+const prototypeURL = "https://bit.ly/izomage";
 
 export default function Page() {
   return (
-    <Layout title="Project | Gluten Free Finder">
+    <Layout title="Project | Land Surveying Company Website">
       <div className="md:mt-16">
         <ProjectHero
-          title="Gluten Free Finder"
-          subtile="App guides people to discover Gluten-Free restaurants worldwide."
-          coverImage="gluten-free-hero"
-          buttonLabel="View Prototype"
+          title="Land Surveying Company Website"
+          subtile="Responsive website, logo redesign, and brand book for the land surveying company."
+          coverImage="izoma-hero"
+          buttonLabel="View Website"
           navigationURL={prototypeURL}
         />
 
@@ -27,92 +27,37 @@ export default function Page() {
         <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
           <Section
             title="Background"
-            body="The research was initially done for this project, and I was given essential insights from the user interviews. With that information in hand, I came up with solutions and created UI designs that were user-focused."
+            body="Izoma LLC is an established land surveying company. Despite their proven success, they lacked an online presence. Izoma reached out to me to lead their digital transformation, which included creating a website and brand book, redesigning the logo and business cards."
             className="basis-1/3 mt-8"
           />
 
           <Section
             title="My Role & Project Duration"
-            body="UX/UI Designer"
-            finalText="1-Week UX/UI Challenge"
+            body="Product Designer"
+            list={[
+              "“Website Design”",
+              "“Logo redesign”",
+              "“Business card design”",
+              "“Brand book”",
+            ]}
+            finalText=" 3 Weeks"
             className="basis-1/3 mt-8"
           />
 
           <Section
             title="The Goal"
-            body="The goal was to create a user-friendly application to help people find gluten-free restaurants anywhere."
+            body="The aim was to craft an informative, user-centric website, offering essential information like Izoma's services and contact details. Additionally, to develop a blog   to offer valuable insights to users and enhance the company's SEO efforts, accompanied by a comprehensive brand book."
             className="basis-1/3 mt-8"
           />
-        </div>
-
-        <Text variant="title">Understanding the User</Text>
-
-        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
-          <Section
-            title="Research"
-            body="To better understand and empathize with consumers, I began researching gluten intolerance and celiac disease. Then, I came up with some desirable features according to my findings and the given insights:"
-            className="basis-1/3 mt-8"
-          />
-
-          <Section
-            title="User Insights"
-            list={[
-              "“Finding gluten-free places during my travels is very painful. If I’m lucky I can find a dedicated gluten-free restaurant, otherwise it’s very hard for me to trust a place. The risk of cross-contamination in a regular kitchen is just too high.”",
-              "“It’s not just about being gluten-free, but the culinary experience. Just because I’m sensitive to gluten it doesn’t mean I don’t want to have a romantic dinner during my holidays with my partner.”",
-              "“Gluten-free bakeries and restaurants can be overly expensive, it would be great to discover those within a reasonable price range close to me.”",
-              "“I usually revisit the gluten-free places where I had a good impression, but I tried so many, that it is hard to keep track of them.”",
-            ]}
-            className="basis-1/3 mt-8"
-          />
-
-          <Section
-            title="Solutions"
-            list={[
-              "The users should be able to easily find a new restaurant with their specifications.",
-              "The users find it useful to read about restaurant reviews.",
-              "They’d love to save favorite restaurants in a list and share the list with others.",
-              "Customers would like to know how pricey the place is, so in the descriptions should be price indicators.",
-              "A big part of the users would be travelers, they might be tired and hungry, and most likely they are using the app with a low phone battery after taking lots of photos, so I thought the app should have a dark mode as well to save the battery.",
-              "The app should support several languages to be useful for travelers.",
-            ]}
-            className="basis-1/3 mt-8"
-          />
-        </div>
-
-        <Text variant="title">Design and Reasoning</Text>
-
-        <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
-          <Section
-            title="Introduction Screens"
-            body="I think for a better experience, every app should have some introduction page to communicate with the users what the app is about before they ask to create an account or log in. So I added 3 introduction screens."
-            className="basis-1/2 mt-8"
-          />
-
-          <Section
-            title="Log In options"
-            body="Then I decided to add different login options, with all popular social accounts as well as just email sign-ups, to make sure all users can sign in. I also added the forgot password screen in case someone needs to reset their account password."
-            className="basis-1/2 mt-8"
-          />
-        </div>
-
-        <div className="mt-8 mb-16">
-          <Image
-            src={`/assets/gluten-free-introduction.png`}
-            width={1120}
-            height={444}
-            alt="1"
-            quality={100}
-          />
-        </div>
 
         <Section
-          title="Home"
-          body="After logging in, the app should be easy to navigate, so I chose a taskbar for navigation. Users can scroll up or down the list view on the map."
+          title="Design System"
+          body="I chose the Noto Sans Georgian typeface and the corresponding icon set because of their perfect match in shape and form. This alignment creates a seamless visual connection that enhances overall design cohesiveness. Moreover, Noto Sans Georgian's support for Latin, Georgian, and Russian characters allows me to maintain consistency throughout this multilingual website."
         />
 
         <div className="mt-12 mb-16">
           <Image
-            src={`/assets/gluten-free-home.png`}
+            src={`/assets/izoma-ds.png`}
             width={1120}
             height={444}
             alt="1"
@@ -120,106 +65,117 @@ export default function Page() {
           />
         </div>
 
-        <Section
-          title="Profile"
-          body="From the Task Bar user are able to navigate to the profile screen where they can choose the language or theme of the app, log out and get help."
-        />
-
-        <div className="mt-12 mb-16">
-          <Image
-            src={`/assets/gluten-free-profile.png`}
-            width={1120}
-            height={444}
-            alt="1"
-            quality={100}
-          />
-        </div>
-
-        <Section
-          title="Favorites & Share"
-          body="Users can navigate to the favorites list where the saved restaurants are and read more about them, remove them from the list, or share the entire list."
-        />
-
-        <div className="mt-12 mb-16">
-          <Image
-            src={`/assets/gluten-free-favorites.png`}
-            width={1120}
-            height={444}
-            alt="1"
-            quality={100}
-          />
-        </div>
-
-        <Section
-          title="Filter"
-          body="Using the filter users are able to easily find a restaurant with their specifications. For eg, they can filter by food category, restaurant type, opening hours etc. That feature makes the app much more convenient and easy to use."
-        />
-
-        <div className="mt-12 mb-16">
-          <Image
-            src={`/assets/gluten-free-filter.png`}
-            width={1120}
-            height={444}
-            alt="1"
-            quality={100}
-          />
-        </div>
-
-        <Section
-          title="Reviews & Price indicators"
-          body="Gluten-free bakeries and restaurants are often overly expensive. So, before visiting the place would be great to have an overall idea of how pricey it is. Price indicators and customer reviews would be helpful for this. Hence, there is a restaurant info page where users can read their descriptions and reviews, make a call to reserve, get restaurants' locations to navigate, write reviews after visiting and add them to their favorite list."
-        />
-
-        <div className="mt-12 mb-20">
-          <Image
-            src={`/assets/gluten-free-reviews.png`}
-            width={1120}
-            height={444}
-            alt="1"
-            quality={100}
-          />
-        </div>
-
-        <SectionHeader title="Light and Dark Themes" />
-
-        <div className="mt-4 mb-16">
-          <Image
-            src={`/assets/gluten-free-screens.png`}
-            width={1120}
-            height={444}
-            alt="1"
-            quality={100}
-          />
-        </div>
-
-        <Text variant="title">Design System</Text>
-
-        <div className="md:mt-2 md:mb-24 flex md:flex-row flex-col">
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
           <Section
-            title="Colors"
-            body="I chose a white background and metallic silver as a primary color. There is a lot of reading in the app, so I needed color which would not be annoying for users' eyes, which would be solid and clean. Also, the white and silver color is kind of kitchen colors, like a white dining table with white dishes, silver spoons, and forks, a white chef's uniform with silver pots and pans. So that is how I got the idea. "
+            title="Business Card Design"
+            body="The logo redesign brought about subtle yet transformative changes that yielded a significant impact. By incorporating slight modifications, the logo now exudes a modern and fresh essence that aligns seamlessly with the company's core operations. The refined design retains the company's heritage while imparting a renewed sense of relevance. This evolution not only enhances visual appeal but also reinforces a more compelling representation of the company's work and values."
             className="basis-1/2 mt-8"
           />
 
+          <div className="basis-1/2 mt-8">
+            <Image
+              src={`/assets/izoma-card.png`}
+              width={1120}
+              height={444}
+              alt="1"
+              quality={100}
+            />
+          </div>
+        </div>
+
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col-reverse">
+          <div className="basis-1/2 mt-8">
+            <Image
+              src={`/assets/izoma-logo.png`}
+              width={1120}
+              height={444}
+              alt="1"
+              quality={100}
+            />
+          </div>
+
           <Section
-            title="Typeface & Iconography"
-            body="Used typeface - Cera Pro is very clean and easy to read. The letters are based on pure geometry, and it has almost all language support so when the app is multilingual it will be easy to read for everyone around the world. Also, chosen tiny icons because of the minimalist's design approach."
+            title="Logo"
+            body="The logo redesign brought about subtle yet transformative changes that yielded a significant impact. By incorporating slight modifications, the logo now exudes a modern and fresh essence that aligns seamlessly with the company's core operations. The logo blends a location pin 📍 and a ruler 📏, forming a visual representation that encapsulates Izoma LLC's land surveying services. This combination conveys the company's expertise and focus in a clear and memorable way, showcasing their specialized field through a carefully designed emblem."
+            className="basis-1/2 mt-8 ml-4"
+          />
+        </div>
+
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col">
+          <Section
+            title="Understanding"
+            body="When tasked with designing the website for Izoma LLC, a respected land surveying firm, I began by delving into research. This involved studying other companies in the same field to uncover prevailing design practices. By analyzing their websites, I gained valuable insights into what works effectively for users in this industry. This research provided me with a solid foundation to create a user-friendly website for Izoma LLC, incorporating proven design elements that resonate with their target audience and reflect industry standards."
             className="basis-1/2 mt-8"
+          />
+
+          <div className="basis-1/2 mt-8">
+            <Image
+              src={`/assets/izoma-understanding.png`}
+              width={1120}
+              height={444}
+              alt="1"
+              quality={100}
+            />
+          </div>
+        </div>
+        <div className="md:mt-4 md:mb-24 flex md:flex-row flex-col-reverse">
+          <div className="basis-1/2 mt-8">
+            <Image
+              src={`/assets/izoma-website.png`}
+              width={1120}
+              height={444}
+              alt="1"
+              quality={100}
+            />
+          </div>
+
+          <Section
+            title="About the Website"
+            body="Izoma LLC's homepage is a dynamic hub, spotlighting impressive statistics and an engaging "About" section to connect with visitors. The comprehensive "Services" segment concisely presents their diverse offerings, while a user-friendly contact form ensures easy communication. The "Blog Highlights" section showcases their expertise through featured articles, solidifying Izoma LLC's credibility within the industry. This cohesive homepage delivers a rich visitor experience that embodies the company's professionalism and commitment to excellence."
+            className="basis-1/2 mt-8 ml-4"
+          />
+        </div>
+          
+          <div className="md:mt-8 md:mb-4 flex md:flex-row flex-col">
+          <Section
+            title="Engaging users"
+            body="My approach to Izoma LLC's website design was guided by thorough research into industry norms, ensuring a user-centered experience that encourages interaction. The concise "About" section strategically funnels users to the prominent "Contact Me" button, while also communicating the company's working hours, fostering trust. This design approach blends professionalism with effective user guidance, creating a seamless path for initiating contact."
+            className="mt-24"
           />
         </div>
 
         <div className="mt-4">
           <Image
-            src={`/assets/gluten-free-design-system.png`}
+            src={`/assets/izoma-engage-users.png`}
             width={1120}
             height={444}
             alt="1"
             quality={100}
           />
         </div>
+         <div className="md:mt-8 md:mb-4 flex md:flex-row flex-col">
+          <Section
+            title="Responsive Website"
+            body="Website is fully responsive, providing seamless access across all devices, particularly mobile phones. With mobile devices being the primary browsing tool for Izoma’s customers, ensuring excellent responsiveness was a crucial aspect of the website's design."
+            className="mt-24"
+          />
+        </div>
 
-        <div className="md:mt-72 mt-24">
-          <ProjectFinal navigationURL={prototypeURL} />
+        <div className="mt-4">
+          <Image
+            src={`/assets/izoma-mockups.png`}
+            width={1120}
+            height={444}
+            alt="1"
+            quality={100}
+          />
+        </div>
+        <div className="md:mt-32 mt-24">
+          <ProjectFinal
+            navigationURL={prototypeURL}
+            label="Click on the button if you’d like to check the website!"
+            buttonLabel="View Website"
+          />
         </div>
       </div>
     </Layout>
