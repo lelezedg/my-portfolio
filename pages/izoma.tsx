@@ -12,11 +12,11 @@ const prototypeURL = "https://bit.ly/gluten-free-finder";
 
 export default function Page() {
   return (
-    <Layout title="Project | Gluten Free Finder">
+    <Layout title="Project | Land Surveying Company Website">
       <div className="md:mt-16">
         <ProjectHero
-          title="Gluten Free Finder"
-          subtile="App guides people to discover Gluten-Free restaurants worldwide."
+          title="Land Surveying Company Website"
+          subtile="Responsive website, logo redesign and brand book for the land surveying company."
           coverImage="gluten-free-hero"
           buttonLabel="View Prototype"
           navigationURL={prototypeURL}
@@ -27,20 +27,20 @@ export default function Page() {
         <div className="md:mt-8 md:mb-24 flex md:flex-row flex-col">
           <Section
             title="Background"
-            body="The research was initially done for this project, and I was given essential insights from the user interviews. With that information in hand, I came up with solutions and created UI designs that were user-focused."
+            body="Izoma LLC is an established land surveying company. Despite their proven success, they lacked an online presence. Izoma reached out to me to lead their digital transformation, which included creating a website and brand book, redesigning the logo and business cards."
             className="basis-1/3 mt-8"
           />
 
           <Section
             title="My Role & Project Duration"
-            body="UX/UI Designer"
-            finalText="1-Week UX/UI Challenge"
+            body="Product Designer"
+            finalText="3 weeks"
             className="basis-1/3 mt-8"
           />
 
           <Section
             title="The Goal"
-            body="The goal was to create a user-friendly application to help people find gluten-free restaurants anywhere."
+            body="The aim was to craft an informative, user-centric website, offering essential information like Izoma's services and contact details. Additionally, to develop a blog   to offer valuable insights to users and enhance the company's SEO efforts, accompanied by a comprehensive brand book."
             className="basis-1/3 mt-8"
           />
         </div>
