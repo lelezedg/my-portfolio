@@ -133,7 +133,7 @@ export default function Page() {
 
           <Section
             title="About the Website"
-            body="Izoma LLC's homepage is a dynamic hub, spotlighting impressive statistics and an engaging "About" section to connect with visitors. The comprehensive "Services" segment concisely presents their diverse offerings, while a user-friendly contact form ensures easy communication. The "Blog Highlights" section showcases their expertise through featured articles, solidifying Izoma LLC's credibility within the industry. This cohesive homepage delivers a rich visitor experience that embodies the company's professionalism and commitment to excellence."
+            body="Izoma LLC's homepage is a dynamic hub, spotlighting impressive statistics and an engaging 'About' section to connect with visitors. The comprehensive 'Services' segment concisely presents their diverse offerings, while a user-friendly contact form ensures easy communication. The 'Blog Highlights' section showcases their expertise through featured articles, solidifying Izoma LLC's credibility within the industry. This cohesive homepage delivers a rich visitor experience that embodies the company's professionalism and commitment to excellence."
             className="basis-1/2 mt-8 ml-4"
           />
         </div>
@@ -141,7 +141,7 @@ export default function Page() {
         <div className="md:mt-8 md:mb-4 flex md:flex-row flex-col">
           <Section
             title="Engaging users"
-            body="My approach to Izoma LLC's website design was guided by thorough research into industry norms, ensuring a user-centered experience that encourages interaction. The concise "About" section strategically funnels users to the prominent "Contact Me" button, while also communicating the company's working hours, fostering trust. This design approach blends professionalism with effective user guidance, creating a seamless path for initiating contact."
+            body="My approach to Izoma LLC's website design was guided by thorough research into industry norms, ensuring a user-centered experience that encourages interaction. The concise 'About' section strategically funnels users to the prominent 'Contact Me' button, while also communicating the company's working hours, fostering trust. This design approach blends professionalism with effective user guidance, creating a seamless path for initiating contact."
             className="mt-24"
           />
         </div>
