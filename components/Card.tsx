@@ -19,7 +19,7 @@ export const Card = ({
   link = "/",
 }: TCard) => {
   return (
-    <Link className="md:w-1/2 flex flex-col md:mx-6 mb-12 " href={link}>
+    <Link className="flex flex-col mb-12 " href={link}>
       <div
         className={`md:h-96 h-64 mb-4 rounded flex justify-center items-center transition duration-300 md:hover:scale-105 ${backgroundStyle}`}
       >
