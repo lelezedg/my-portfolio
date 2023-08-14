@@ -17,7 +17,7 @@ export default function Page() {
         <ProjectHero
           title="Land Surveying Company Website"
           subtile="Responsive website, logo redesign and brand book for the land surveying company."
-          coverImage="gluten-free-hero"
+          coverImage="izoma-cover"
           buttonLabel="View Prototype"
           navigationURL={prototypeURL}
         />
