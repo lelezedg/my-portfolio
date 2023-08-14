@@ -7,7 +7,7 @@ type TMenuItemVariant = "web" | "app";
 
 type TMenuItem = {
   title: string;
-  variant?: TMenuItemVariant;
+  variant?: string;
   isActive?: boolean;
   link?: string;
 };
