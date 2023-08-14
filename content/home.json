@@ -48,7 +48,16 @@
       "image": "marikone-cover",
       "backgroundStyle": "bg-gradient-to-r from-purple-100 to-purple-200",
       "link": "/fashion-designer-portfolio"
+    },
+    {
+      "title": "Land Surveying Company Website",
+      "projectType": "web",
+      "subtitle": "Responsive website, logo redesign and brand book for the land surveying company.",
+      "image": "izoma-cover",
+      "backgroundStyle": "bg-gradient-to-r from-green-100 to-green-200",
+      "link": "/izomage"
     }
+
   ]
 }
   
