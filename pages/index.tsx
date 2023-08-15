@@ -12,7 +12,7 @@ export default function Home() {
               title={card.title}
               subtitle={card.subtitle}
               image={card.image}
-              backgroundStyle={card.backgroundStyle}
+              color={card.color}
               link={card.link}
             />
           </div>

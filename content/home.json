@@ -6,7 +6,7 @@
       "projectType": "app",
       "subtitle": "App allows people to refresh their First Aid knowledge with illustrated articles and quizzes.",
       "image": "first-aid-cover",
-      "backgroundStyle": "bg-gradient-to-r from-blue-100 to-blue-200",
+      "color": "blue",
       "link": "/learn-first-aid-app"
     },
     {
@@ -14,7 +14,7 @@
       "projectType": "app",
       "subtitle": "App guides people to discover Gluten Free restaurants worldwide.",
       "image": "gluten-free-cover",
-      "backgroundStyle": "bg-gradient-to-r from-green-100 to-green-200",
+      "color": "green",
       "link": "/gluten-free-finder-app"
     },
     {
@@ -22,7 +22,7 @@
       "projectType": "web",
       "subtitle": "Responsive website for the cleaning company.",
       "image": "cleantime-cover",
-      "backgroundStyle": "bg-gradient-to-r from-pink-100 to-pink-200",
+      "color": "pink",
       "link": "/cleaning-company-website"
     },
     {
@@ -30,7 +30,7 @@
       "projectType": "web",
       "subtitle": "Easy and smart tool to manage daily and upcoming tasks at work.",
       "image": "task-cover",
-      "backgroundStyle": "bg-gradient-to-r from-glacier-100 to-glacier-200",
+      "color": "glacier",
       "link": "/task-management-app"
     },
     {
@@ -38,7 +38,7 @@
       "projectType": "app",
       "subtitle": "App allows people to share Food & Grocery products with NGO communities.",
       "image": "food-waste-cover",
-      "backgroundStyle": "bg-gradient-to-r from-orange-100 to-orange-200",
+      "color": "orange",
       "link": "/reduce-food-waste-app"
     },
     {
@@ -46,7 +46,7 @@
       "projectType": "web",
       "subtitle": "Responsive portfolio website, where people can find designer’s collection and contact details.",
       "image": "marikone-cover",
-      "backgroundStyle": "bg-gradient-to-r from-purple-100 to-purple-200",
+      "color": "purple",
       "link": "/fashion-designer-portfolio"
     },
     {
@@ -54,10 +54,9 @@
       "projectType": "web",
       "subtitle": "Responsive website, logo redesign and brand book for the land surveying company.",
       "image": "izoma-cover",
-      "backgroundStyle": "bg-gradient-to-r from-green-100 to-green-200",
+      "color": "green",
       "link": "/izomage"
     }
-
   ]
 }
   
