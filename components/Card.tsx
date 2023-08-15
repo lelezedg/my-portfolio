@@ -21,7 +21,7 @@ export const Card = ({
   return (
     <Link className="flex flex-col mb-12 " href={link}>
       <div
-        className={`md:h-96 h-64 mb-4 rounded flex justify-center items-center transition duration-300 md:hover:scale-105 ${backgroundStyle}`}
+        className={`md:h-96 h-64 mb-4 rounded flex justify-center items-center transition duration-300 md:hover:scale-105  ${backgroundStyle}`}
       >
         {image && (
           <Image
