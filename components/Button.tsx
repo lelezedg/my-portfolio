@@ -38,6 +38,9 @@ export const Button = ({
       case "/cleaning-company-website":
         setColor("bg-pink-200 hover:bg-pink-300 transition duration-300");
         break;
+      case "/izomage":
+        setColor("bg-green-200 hover:bg-green-300 transition duration-300");
+        break;
     }
   }, [pathname]);
 

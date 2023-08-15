@@ -33,6 +33,9 @@ export const SectionHeader = ({ title, className }: TSectionHeader) => {
       case "/cleaning-company-website":
         setIconColor("text-pink-200");
         break;
+      case "/izomage":
+        setIconColor("text-green-200");
+        break;
       default:
         break;
     }
