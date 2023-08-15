@@ -50,6 +50,9 @@ export const MenuItem = ({
       case "/task-management-app":
         setColor("text-glacier-400");
         break;
+      case "/izomage":
+        setColor("text-green-400");
+        break;
     }
   }, [pathname]);
 
