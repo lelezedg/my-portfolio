@@ -46,13 +46,13 @@ export const Text = ({ children, variant, className }: TText) => {
 
     case "menu-default":
       return (
-        <p className={`font-normal text-base text-gray-400 ${className}`}>
+        <p className={`font-normal text-sm text-gray-300 ${className}`}>
           {children}
         </p>
       );
 
     case "menu-active":
-      return <p className={`font-medium text-base ${className}`}>{children}</p>;
+      return <p className={`font-semibold text-sm ${className}`}>{children}</p>;
 
     default:
       return <p className={className}>{children}</p>;

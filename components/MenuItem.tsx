@@ -70,8 +70,8 @@ export const MenuItem = ({
 
       {variant && (
         <Text
-          variant={`${isActive ? "menu-active" : "menu-default"}`}
-          className={`ml-1 text-gray-200`}
+          variant="menu-default"
+          className="ml-1 text-gray-200 font-extralight"
         >
           {variant === "web" ? " | Web" : " | App"}
         </Text>
