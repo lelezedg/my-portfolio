@@ -51,13 +51,13 @@ export const Card = ({
   return (
     <Link className="flex flex-col mb-12 " href={link}>
       <div
-        className={`md:h-96 h-64 mb-4 rounded flex justify-center items-center transition duration-300 md:hover:scale-105 ${backgroundColor}`}
+        className={`md:h-[300px] h-64 mb-4 rounded flex justify-center items-center transition duration-300 md:hover:scale-105 ${backgroundColor}`}
       >
         {image && (
           <Image
             src={`/assets/${image}.png`}
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             alt="1"
             quality={30}
           />
