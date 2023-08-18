@@ -10,6 +10,14 @@
       "link": "/learn-first-aid-app"
     },
     {
+      "title": "Land Surveying Company",
+      "projectType": "web",
+      "subtitle": "Responsive website, logo redesign and brand book for the land surveying company.",
+      "image": "izoma-cover",
+      "color": "green",
+      "link": "/izomage"
+    }
+    {
       "title": "Gluten Free Finder",
       "projectType": "app",
       "subtitle": "App guides people to discover Gluten Free restaurants worldwide.",
