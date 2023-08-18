@@ -18,12 +18,12 @@
       "link": "/izomage"
     },
     {
-      "title": "Gluten Free Finder",
+      "title": "Reduce Food Waste",
       "projectType": "app",
-      "subtitle": "App guides people to discover Gluten Free restaurants worldwide.",
-      "image": "gluten-free-cover",
-      "color": "green",
-      "link": "/gluten-free-finder-app"
+      "subtitle": "App allows people to share Food & Grocery products with NGO communities.",
+      "image": "food-waste-cover",
+      "color": "orange",
+      "link": "/reduce-food-waste-app"
     },
     {
       "title": "Cleaning Company",
@@ -34,22 +34,6 @@
       "link": "/cleaning-company-website"
     },
     {
-      "title": "Task Management",
-      "projectType": "web",
-      "subtitle": "Easy and smart tool to manage daily and upcoming tasks at work.",
-      "image": "task-cover",
-      "color": "glacier",
-      "link": "/task-management-app"
-    },
-    {
-      "title": "Reduce Food Waste",
-      "projectType": "app",
-      "subtitle": "App allows people to share Food & Grocery products with NGO communities.",
-      "image": "food-waste-cover",
-      "color": "orange",
-      "link": "/reduce-food-waste-app"
-    },
-    {
       "title": "Fashion Designer",
       "projectType": "web",
       "subtitle": "Responsive portfolio website, where people can find designer’s collection and contact details.",
@@ -58,12 +42,20 @@
       "link": "/fashion-designer-portfolio"
     },
     {
-      "title": "Land Surveying Company",
+      "title": "Task Management",
       "projectType": "web",
-      "subtitle": "Responsive website, logo redesign and brand book for the land surveying company.",
-      "image": "izoma-cover",
+      "subtitle": "Easy and smart tool to manage daily and upcoming tasks at work.",
+      "image": "task-cover",
+      "color": "glacier",
+      "link": "/task-management-app"
+    },  
+    {
+      "title": "Gluten Free Finder",
+      "projectType": "app",
+      "subtitle": "App guides people to discover Gluten Free restaurants worldwide.",
+      "image": "gluten-free-cover",
       "color": "green",
-      "link": "/izomage"
+      "link": "/gluten-free-finder-app"
     }
   ]
 }
